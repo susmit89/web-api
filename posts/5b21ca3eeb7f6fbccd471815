@@ -1,0 +1,58 @@
+{
+    _id: "5b21ca3eeb7f6fbccd471815",
+    title: "Terminator",
+    topic: { _id: "5b21ca3eeb7f6fbccd471818", name: "Artificial Intelligence" },
+    numberInStock: 6,
+    dailyRentalRate: 2.5,
+    publishDate: "2018-01-03T19:04:28.809Z",
+    content: {
+      rows: 7,
+      coumns: 0,
+      images: [],
+      text: [
+        {
+          row: 0,
+          column: 0,
+          type: "heading",
+          value: ["This is subheadiing"],
+        },
+        {
+          row: 1,
+          column: 0,
+          type: "paragraph",
+          value: ["This is paragraph"],
+        },
+        {
+          row: 2,
+          column: 0,
+          type: "paragraph",
+          value: ["This is paragraph"],
+        },
+        {
+          row: 3,
+          column: 0,
+          type: "image",
+          caption: ["This is subheadiing"],
+          reference: "",
+        },
+        {
+          row: 4,
+          column: 0,
+          type: "paragraph",
+          value: ["This is paragraph"],
+        },
+        {
+          row: 5,
+          column: 0,
+          type: "subheading",
+          value: ["Conclusion"],
+        },
+        {
+          row: 6,
+          column: 0,
+          type: "paragraph",
+          value: ["This is paragraph"],
+        },
+      ],
+    },
+  }
