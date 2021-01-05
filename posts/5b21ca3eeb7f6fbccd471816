@@ -1,5 +1,6 @@
 {
 	"_id ": "5b21ca3eeb7f6fbccd471816",
+	"id": "Federated-Learning-5b21ca3eeb7f6fbccd471816",
 	"title": "Federated Learning",
 	"topic": {
 		"_id": "5b21ca3eeb7f6fbccd471818",
@@ -8,6 +9,7 @@
 	"numberInStock": 6,
 	"dailyRentalRate": 2.5,
 	"publishDate": "2018-01-03T19:04:28.809Z",
+	"metadata": ["Federated learning (FL) in contrast, is an approach that downloads the current model and computes an updated model at the device itself (ala edge computing) using local data. These locally trained models are then sent from the devices back to the central server where they are aggregated, i.e. averaging weights, and then a single consolidated and improved global model is sent back to the devices."],
 	"content": {
 		"rows": 7,
 		"coumns": 0,
@@ -34,50 +36,50 @@
 				"row": 3,
 				"column": 0,
 				"type": "image",
-				"caption": ["A didrachm coin depicting the winged Talos, an automaton or artificial being in ancient Greek myth, c. 300 BC"],
-				"reference": "/images/Didrachm_Phaistos_obverse_CdM.jpg"
+				"caption": ["Your phone personalizes the model locally, based on your usage (A). Many users’ updates are aggregated (B) to form a consensus change © to the shared model, after which the procedure is repeated."],
+				"reference": "/images/0*yI_rIRNAFTYDwFtK.png"
 			},
 			{
 				"row": 4,
 				"column": 0,
 				"type": "paragraph",
-				"value": ["In 1965, I. J. Good described an intelligence explosion, now more often called the technological singularity, in which an \"ultraintelligent machine\" would be able to design a still more intelligent machine, which would lead to the creation of machines far more intelligent than humans."]
+				"value": ["Federated learning (FL) in contrast, is an approach that downloads the current model and computes an updated model at the device itself (ala edge computing) using local data. These locally trained models are then sent from the devices back to the central server where they are aggregated, i.e. averaging weights, and then a single consolidated and improved global model is sent back to the devices."]
 			},
 			{
 				"row": 5,
 				"column": 0,
 				"type": "paragraph",
-				"value": ["In 1965, I. J. Good described an intelligence explosion, now more often called the technological singularity, in which an \"ultraintelligent machine\" would be able to design a still more intelligent machine, which would lead to the creation of machines far more intelligent than humans."]
+				"value": ["In a more general sense, FL allows for machine learning algorithms to gain experience from a broad range of data sets located at different locations. The approach enables multiple organizations to collaborate on the development of models, but without needing to directly share secure data with each other. Over the course of several training iterations, the shared models get exposed to a significantly wider range of data than what any single organization possesses in-house. In other words, FL decentralizes machine learning by removing the need to pool data into a single location. Instead, the model is trained in multiple iterations at different locations."]
 			},
 			{
 				"row": 6,
 				"column": 0,
 				"type": "paragraph",
-				"value": ["The cosmologist Max Tegmark has investigated the existential risk from artificial general intelligence. Tegmark has proposed ten possible paths for society once \"superintelligent AI\" has been created, some utopian, some dystopian. These range from a \"libertarian utopia\", through benevolent dictatorship to conquering AI, though other paths include the \"Orwellian\" blocking of AI research, and the self-destruction of humanity before superintelligent AI is developed."]
+				"value": ["FL enables devices like mobile phones to collaboratively learn a shared prediction model while keeping the training data on the device instead of requiring the data to be uploaded and stored on a central server."]
 			},
 			{
 				"row": 7,
 				"column": 0,
 				"type": "heading",
-				"value": ["Plot devices"]
+				"value": ["Google describes how FL works in this way with respect to mobile phones:"]
 			},
 			{
 				"row": 8,
 				"column": 0,
 				"type": "paragraph",
-				"value": ["In films like Ex Machina or Chappie, a single isolated genius becomes the first to successfully build an artificial general intelligence; scientists in the real world deem this to be unlikely. In Chappie, Transcendence, and Tron, human minds are capable of being uploaded into artificial or virtual bodies; usually no reasonable explanation is offered as to how this difficult task can be achieved. In the I, Robot and Bicentennial Man films, robots that are programmed to serve humans spontaneously generate new goals on their own, without a plausible explanation of how this took place."]
+				"value": ["It works like this: your device downloads the current model, improves it by learning from data on your phone, and then summarizes the changes as a small focused update. Only this update to the model is sent to the cloud, using encrypted communication, where it is immediately averaged with other user updates to improve the shared model. All the training data remains on your device, and no individual updates are stored in the cloud."]
 			},
 			{
 				"row": 9,
 				"column": 0,
 				"type": "heading",
-				"value": ["Utopian"]
+				"value": ["Challenges"]
 			},
 			{
 				"row": 10,
 				"column": 0,
 				"type": "paragraph",
-				"value": ["Optimistic visions of the future of artificial intelligence are possible in science fiction.[11] One of the best-known is Iain Banks's Culture series of novels, which portray a utopian, post-scarcity space society of humanoids, aliens, and advanced beings with artificial intelligence living in socialist habitats across the Milky Way.[13][14] Researchers at the University of Cambridge have identified four major themes in utopian scenarios featuring AI: immortality, or indefinite lifespans; ease, or freedom from the need to work; gratification, or pleasure and entertainment provided by machines; and dominance, the power to protect oneself or rule over others."]
+				"value": ["There are a number of core challenges associated with FL. First, communication is a critical bottleneck in FL networks where data generated on each device remain local. In order to train a model using data generated by the devices in the network, it is necessary to develop communication-efficient methods that reduce the total number of communication rounds, and also iteratively send small model updates as part of the training process, as opposed to sending the entire data set."]
 			}
 		]
 	}
