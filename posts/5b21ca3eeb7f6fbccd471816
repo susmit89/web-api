@@ -1,0 +1,84 @@
+{
+	"_id ": "5b21ca3eeb7f6fbccd471815",
+	"title": "Artificial intelligence in fiction",
+	"topic": {
+		"_id": "5b21ca3eeb7f6fbccd471818",
+		"name": "Artificial Intelligence"
+	},
+	"numberInStock": 6,
+	"dailyRentalRate": 2.5,
+	"publishDate": "2018-01-03T19:04:28.809Z",
+	"content": {
+		"rows": 7,
+		"coumns": 0,
+		"images": {},
+		"text": [{
+				"row": 0,
+				"column": 0,
+				"type": "heading",
+				"value": ["Background"]
+			},
+			{
+				"row": 1,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["The notion of advanced robots with human-like intelligence dates back at least to 1872 with Samuel Butler and his novel Erewhon.[1] This drew on an earlier (1863) article of his, \"Darwin among the Machines\", where he raised the question of the evolution of consciousness among self-replicating machines that might supplant humans as the dominant species.[2] The creature in Mary Shelley's 1818 Frankenstein has also been considered an artificial being, for instance by the science fiction author Brian Aldiss.[3] Such beings appeared, too, in classical antiquity."]
+			},
+			{
+				"row": 2,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["Artificial intelligence is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and other animals.[6] It is a recurrent theme in science fiction, whether utopian, emphasising the potential benefits, or dystopian, emphasising the dangers.[7] For example, the film director Ridley Scott has focused on AI throughout his career, and it plays an important part in his films Prometheus, Blade Runner, and the Alien franchise."]
+			},
+			{
+				"row": 3,
+				"column": 0,
+				"type": "image",
+				"caption": ["A didrachm coin depicting the winged Talos, an automaton or artificial being in ancient Greek myth, c. 300 BC"],
+				"reference": "/images/Didrachm_Phaistos_obverse_CdM.jpg"
+			},
+			{
+				"row": 4,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["In 1965, I. J. Good described an intelligence explosion, now more often called the technological singularity, in which an \"ultraintelligent machine\" would be able to design a still more intelligent machine, which would lead to the creation of machines far more intelligent than humans."]
+			},
+			{
+				"row": 5,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["In 1965, I. J. Good described an intelligence explosion, now more often called the technological singularity, in which an \"ultraintelligent machine\" would be able to design a still more intelligent machine, which would lead to the creation of machines far more intelligent than humans."]
+			},
+			{
+				"row": 6,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["The cosmologist Max Tegmark has investigated the existential risk from artificial general intelligence. Tegmark has proposed ten possible paths for society once \"superintelligent AI\" has been created, some utopian, some dystopian. These range from a \"libertarian utopia\", through benevolent dictatorship to conquering AI, though other paths include the \"Orwellian\" blocking of AI research, and the self-destruction of humanity before superintelligent AI is developed."]
+			},
+			{
+				"row": 7,
+				"column": 0,
+				"type": "heading",
+				"value": ["Plot devices"]
+			},
+			{
+				"row": 8,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["In films like Ex Machina or Chappie, a single isolated genius becomes the first to successfully build an artificial general intelligence; scientists in the real world deem this to be unlikely. In Chappie, Transcendence, and Tron, human minds are capable of being uploaded into artificial or virtual bodies; usually no reasonable explanation is offered as to how this difficult task can be achieved. In the I, Robot and Bicentennial Man films, robots that are programmed to serve humans spontaneously generate new goals on their own, without a plausible explanation of how this took place."]
+			},
+			{
+				"row": 9,
+				"column": 0,
+				"type": "heading",
+				"value": ["Utopian"]
+			},
+			{
+				"row": 10,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["Optimistic visions of the future of artificial intelligence are possible in science fiction.[11] One of the best-known is Iain Banks's Culture series of novels, which portray a utopian, post-scarcity space society of humanoids, aliens, and advanced beings with artificial intelligence living in socialist habitats across the Milky Way.[13][14] Researchers at the University of Cambridge have identified four major themes in utopian scenarios featuring AI: immortality, or indefinite lifespans; ease, or freedom from the need to work; gratification, or pleasure and entertainment provided by machines; and dominance, the power to protect oneself or rule over others."]
+			}
+		]
+	}
+}
