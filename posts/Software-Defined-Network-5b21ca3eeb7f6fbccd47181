@@ -37,7 +37,7 @@
 				"column": 0,
 				"type": "image",
 				"caption": ["OpenNetworking states the above diagram “depicts a logical view of the SDN architecture. Network intelligence is (logically) centralized in software-based SDN controllers, which maintain a global view of the network. As a result, the network appears to the applications and policy engines as a single, logical switch. With SDN, enterprises and carriers gain vendor-independent control over the entire network from a single logical point, which greatly simplifies the network design and operation. SDN also greatly simplifies the network devices themselves, since they no longer need to understand and process thousands of protocol standards but merely accept instructions from the SDN controllers.”"],
-				"reference": "/images/matt1.jpg"
+				"reference": "images/matt1.jpg"
 			},
 			{
 				"row": 4,
