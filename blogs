@@ -18,6 +18,17 @@
 		"numberInStock": 5,
 		"dailyRentalRate": 2.5,
 		"publishDate": "2018-01-03T19:04:28.809Z"
+	},
+	   {
+		"_id": "5b21ca3eeb7f6fbccd471817",
+		"title": "Software Defined Network",
+		"topic": {
+			"_id": "5b21ca3eeb7f6fbccd471814",
+			"name": "Network"
+		},
+		"numberInStock": 5,
+		"dailyRentalRate": 2.5,
+		"publishDate": "2018-01-03T19:04:28.809Z"
 	}
 
 ]
