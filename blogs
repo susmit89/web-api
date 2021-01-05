@@ -1,5 +1,6 @@
 [{
 		"_id": "5b21ca3eeb7f6fbccd471815",
+		"id": "Artificial-intelligence-in-fiction-5b21ca3eeb7f6fbccd471815",
 		"title": "Artificial intelligence in fiction",
 		"topic": {
 			"_id": "5b21ca3eeb7f6fbccd471818",
@@ -10,6 +11,7 @@
 		"publishDate": "2018-01-03T19:04:28.809Z"
 	}, {
 		"_id": "5b21ca3eeb7f6fbccd471816",
+		"id": "Federated-Learning-5b21ca3eeb7f6fbccd471816",
 		"title": "Federated Learning",
 		"topic": {
 			"_id": "5b21ca3eeb7f6fbccd471818",
@@ -21,6 +23,7 @@
 	},
 	   {
 		"_id": "5b21ca3eeb7f6fbccd471817",
+		"id": "Software-Defined-Network-5b21ca3eeb7f6fbccd471817",
 		"title": "Software Defined Network",
 		"topic": {
 			"_id": "5b21ca3eeb7f6fbccd471814",
