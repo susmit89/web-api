@@ -28,7 +28,7 @@
 				"row": 2,
 				"column": 0,
 				"type": "paragraph",
-				"value": ["Artificial intelligence is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and other animals.[6] It is a recurrent theme in science fiction, whether utopian, emphasising the potential benefits, or dystopian, emphasising the dangers.[7] For example, the film director Ridley Scott has focused on AI throughout his career, and it plays an important part in his films Prometheus, Blade Runner, and the Alien franchise."]
+				"value": ["Federated learning enables multiple actors to build a common, robust machine learning model without sharing data, thus allowing to address critical issues such as data privacy, data security, data access rights and access to heterogeneous data. Its applications are spread over a number of industries including defense, telecommunications, IoT, and pharmaceutics."]
 			},
 			{
 				"row": 3,
