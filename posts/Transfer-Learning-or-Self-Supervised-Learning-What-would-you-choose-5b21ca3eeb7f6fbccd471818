@@ -1,7 +1,7 @@
 {
 	"_id ": "5b21ca3eeb7f6fbccd471818",
 	"id": "Transfer-Learning-or-Self-Supervised-Learning-What-would-you-choose-5b21ca3eeb7f6fbccd471818",
-	"title": "Transfer Learning or Self-Supervised Learning. Wha would you choose?",
+	"title": "Transfer Learning or Self-Supervised Learning. What would you choose?",
 	"topic": {
 		"_id": "5b21ca3eeb7f6fbccd471818",
 		"name": "Artificial Intelligence"
@@ -97,7 +97,7 @@
 				"row": 13,
 				"column": 0,
 				"type": "paragraph",
-				"value": ["Both methods have potential use in different settings. Transfer Learning is well researched and much popular with computer vision. Semi-Supervised Learning is leading in Natural Language Processing application due to the introduction of transformers."]
+				"value": ["Both methods have potential use in different settings. Transfer Learning is well researched and much popular with computer vision. Semi-Supervised Learning is leading in Natural Language Processing applications due to the introduction of transformers."]
 			},
 			{
 				"row": 14,
