@@ -37,7 +37,7 @@
 				"column": 0,
 				"type": "image",
 				"caption": ["Fig 1: Workflow of transfer learning and self-supervised learning. (Yang et)"],
-				"reference": "/images/tl-vs-ssl-yang-et.png"
+				"reference": "images/tl-vs-ssl-yang-et.png"
 			},
 			{
 				"row": 4,
