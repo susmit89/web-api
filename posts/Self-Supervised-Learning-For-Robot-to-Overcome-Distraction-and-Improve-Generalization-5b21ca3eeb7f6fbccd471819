@@ -24,7 +24,7 @@
 				"row": 1,
 				"column": 0,
 				"type": "paragraph",
-				"value": ["Hansen et al build a network with a feature extractor e outputting to RL and Self-Supervised network. During the training phase they observe samples from the relay buffer and then jointly optimise RL and self-supervised objectives.  Self-supervised is trained on auxiliary tasks like inverse dynamics and rotation thus is responsible for the inverse dynamics prediction for control, and rotation prediction for navigation of the robot. At the testing phase only self-supervise objective is optimised therefore reward policy is unavailable. A goal is to update the feature extractor during the test from a self-supervised gradient."]
+				"value": ["Hansen et al build a network with a feature extractor e outputting to RL and Self-Supervised network. During the training phase, they observe samples from the relay buffer and then jointly optimise RL and self-supervised objectives.  Self-supervised is trained on auxiliary tasks like inverse dynamics and rotation thus is responsible for the inverse dynamics prediction for control, and rotation prediction for navigation of the robot. At the testing phase, only self-supervise objective is optimised therefore reward policy is unavailable. A goal is to update the feature extractor during the test from a self-supervised gradient."]
 			},
 			{
 				"row": 2,
