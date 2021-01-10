@@ -37,7 +37,7 @@
 				"column": 0,
 				"type": "image",
 				"caption": ["A didrachm coin depicting the winged Talos, an automaton or artificial being in ancient Greek myth, c. 300 BC"],
-				"reference": "/images/Didrachm_Phaistos_obverse_CdM.jpg"
+				"reference": "images/Didrachm_Phaistos_obverse_CdM.jpg"
 			},
 			{
 				"row": 4,
