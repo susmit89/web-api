@@ -1,0 +1,119 @@
+{
+	"_id ": "5b21ca3eeb7f6fbccd473682",
+	"id": "Bloom-Filters-choose-5b21ca3eeb7f6fbccd473682",
+	"title": "Bloom Filters",
+	"topic": {
+		"_id": "5b21ca3eeb7f6fbccd486865",
+		"name": "Data Structure"
+	},
+	"numberInStock": 6,
+	"dailyRentalRate": 2.5,
+	"publishDate": "2021-04-16T19:04:28.809Z",
+	"metadata": ["Bloom filter (BF), a space- and time-efficient probabilistic data structure introduced by Burton Bloom in 1970. They support fast element insertion and deletion."],
+	"content": {
+		"rows": 7,
+		"coumns": 0,
+		"images": {},
+		"text": [{
+				"row": 0,
+				"column": 0,
+				"type": "heading",
+				"value": ["What is the difference?"]
+			},
+			{
+				"row": 1,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["In transfer-learning(TL), a model is pre-trained on a large dataset to perform some predictive task from source domain and then fined to perform another task from target domain. Eg. In the source domain we pre-train the model for object recognition of vehicles and then fine tune in the target domain to recognize the brand of cars."]
+			},
+			{
+				"row": 2,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["Semi-supervised learning(SSL) does the same thing. But the difference between both is how the models are pre-trained. In transfer-learning, model is pre-trained through supervised learning in which dataset from source is annotated by humans while in self-supervised learning, model is pre-trained unsupervised without labelled data. Unsupervised  learning is carried out by performing some auxiliary tasks set by humans. Best example is the BERT NLP model which performs auxiliary tasks like predict the present word from past words or predict present word from future words or predict word from both present and past words in a given sentence. Data is not labelled rather BERT generates labels. Another example is autoencoders which reconstruct the source image."]
+			},
+			{
+				"row": 3,
+				"column": 0,
+				"type": "image",
+				"caption": ["Fig 1: Workflow of transfer learning and self-supervised learning. (Yang et)"],
+				"reference": "images/tl-vs-ssl-yang-et.png"
+			},
+			{
+				"row": 4,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["Yang et performed a comprehensive study to show under what settings either of techniques outperforms. They choose a dataset from different domains like common objects(Imagenet), scenery, birds/insects, x-ray/ct-scan. Source domain is where model was pre-trained and target domain is fine-tuning of model"]
+			},
+			{
+				"row": 5,
+				"column": 0,
+				"type": "heading",
+				"value": ["When source domain and target domain is different"]
+			},
+			{
+				"row": 6,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["When source domain(Nature) and target domain(Pneumonia) difference was large, SSL performed better.  TL performed well on nature dataset as source and flowers dataset as target. This is because a lot of labels from source were overlapped in the target which TL utilized. But SSL was robust when domains were different. SSL therefore may be used in real world applications where domains differ by larger margins."]
+			},
+			{
+				"row": 7,
+				"column": 0,
+				"type": "heading",
+				"value": ["When amount of pre-training is small"]
+			},
+			{
+				"row": 8,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["When the amount of pre-training data was small SSL outperformed TL on all target tasks. This is because when the dataset is small TL likely suffers overfitting. SSL is less sensitive to data amount than TL. Large dataset enables TL to learn discriminative representations. Hence as the dataset grows TL learning improves and achieves better results than SSL."]
+			},
+			{
+				"row": 9,
+				"column": 0,
+				"type": "heading",
+				"value": ["When classes in source dataset are imbalance"]
+			},
+			{
+				"row": 10,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["When classes are imbalanced both SSL and TL suffer because bias is high due to frequent images from one class which worsens generalization to target tasks. TL is pre-trained using class labels and therefore is more sensitive to the distribution of labels, including imbalance. In contrast, the pretraining of SSL is label-free, hence is less affected by label distribution."]
+			},
+			{
+				"row": 11,
+				"column": 0,
+				"type": "heading",
+				"value": ["When using source or target or combined data"]
+			},
+			{
+				"row": 12,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["When pre-trained on combined data from source and target domain, SSL performs better because combined data helps learn better representations. TL on the combined data performs better than on target-only. The reason is that performing TL on the combined data effectively leverages the source task to help with the learning of the target task via multi-task learning. TL on the combined data performs worse than on source-only. The reason is: TL on source-only first pretrains on source data, then finetunes on target data."]
+			},
+			{
+				"row": 13,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["Both methods have potential use in different settings. Transfer Learning is well researched and much popular with computer vision. Semi-Supervised Learning is leading in Natural Language Processing applications due to the introduction of transformers."]
+			},
+			{
+				"row": 14,
+				"column": 0,
+				"type": "heading",
+				"value": ["References"]
+			},
+			{
+				"row": 15,
+				"column": 0,
+				"type": "references",
+				"value": [{
+					"authors": "Xingyi Yang∗, Xuehai He∗,Yuxiao Liang, Yue Yang",
+					"title": "Transfer Learning or Self-supervised Learning? A Tale of Two Pretraining Paradigms"
+				}]
+			}
+		]
+	}
+}
