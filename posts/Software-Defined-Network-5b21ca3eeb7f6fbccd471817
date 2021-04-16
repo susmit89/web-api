@@ -1,0 +1,87 @@
+{
+	"_id": "5b21ca3eeb7f6fbccd471817",
+	"id": "Software-Defined-Network-5b21ca3eeb7f6fbccd471817",
+	"title": "Software Defined Network",
+	"topic": {
+		"_id": "5b21ca3eeb7f6fbccd471814",
+		"name": "Network"
+	},
+	"numberInStock": 5,
+	"dailyRentalRate": 2.5,
+	"publishDate": "2020-01-03T19:04:28.809Z",
+	"metadata": ["Hardware control in the networking world was relevant to the year 2008 timeframe. It is when the first emergence of software-defined networking (SDN) become noticeable with the OpenFlow protocol. Then it used to be regarded as a technology that falls in the category of distinguished network control mechanism which streamlined automation and policy-based organization of the network resources."],
+	"content": {
+		"rows": 7,
+		"coumns": 0,
+		"images": {},
+		"text": [{
+				"row": 0,
+				"column": 0,
+				"type": "heading",
+				"value": ["What Is Software-Defined Networking?"]
+			},
+			{
+				"row": 1,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["Software-defined networking (SDN) in all simplicity is an architecture that facilitates networking agility and flexibility. The primary aim of SDN technology is to enable a centrally controlled network through software applications. The purpose behind software-defined networking is to assist ever-changing business requirements through intelligently programmed services in order to help organizations manage their entire network consistently and comprehensively."]
+			},
+			{
+				"row": 2,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["With the help of software applications based on application programming interfaces APIs, SDN allows network programming in a centrally controlled environment. That enables organizations to open up previously concealed network platform through common SDN control implementation and manage their whole networks without technological complexities."]
+			},
+			{
+				"row": 3,
+				"column": 0,
+				"type": "image",
+				"caption": ["OpenNetworking states the above diagram “depicts a logical view of the SDN architecture. Network intelligence is (logically) centralized in software-based SDN controllers, which maintain a global view of the network. As a result, the network appears to the applications and policy engines as a single, logical switch. With SDN, enterprises and carriers gain vendor-independent control over the entire network from a single logical point, which greatly simplifies the network design and operation. SDN also greatly simplifies the network devices themselves, since they no longer need to understand and process thousands of protocol standards but merely accept instructions from the SDN controllers.”"],
+				"reference": "images/matt1.jpg"
+			},
+			{
+				"row": 4,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["Due to the massive induction and influence of the varying nature of the content, increasing cloud computing dependency, growing mobile and another device usage, coupled with several consumer supplier dynamics and permanent business pressures all has converged to absolutely alter the traditional business modus operandi. In an attempt to achieve a semblance of control, businesses today, are actively seeking technical assistance to improve their operations and operational performance alike."]
+			},
+			{
+				"row": 5,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["In a more general sense, FL allows for machine learning algorithms to gain experience from a broad range of data sets located at different locations. The approach enables multiple organizations to collaborate on the development of models, but without needing to directly share secure data with each other. Over the course of several training iterations, the shared models get exposed to a significantly wider range of data than what any single organization possesses in-house. In other words, FL decentralizes machine learning by removing the need to pool data into a single location. Instead, the model is trained in multiple iterations at different locations."]
+			},
+			{
+				"row": 6,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["Network design is pivotal to this digitalization of business models which turns SDN technology equally critical by association. The SDN enterprises or general IT service providers are coming up with one revolutionary solution after another to keep pace with exceedingly close competition within."]
+			},
+			{
+				"row": 7,
+				"column": 0,
+				"type": "heading",
+				"value": ["What Is SDN Controller?"]
+			},
+			{
+				"row": 8,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["SDN controller is regarded as the brain of the network by Cisco, it is basically a software that brings forward the centralized view as well as total control over the organization’s entire network. The IT operators, managers, or network administrators within/out of the organization manage the forwarding plane of essential infrastructure to regulate traffic through the controller. It is a policy-based manager of the organization’s network resources and overall behavior. The Network administrators device policies and apply them consistently to the manifold nodes within the network"]
+			},
+			{
+				"row": 9,
+				"column": 0,
+				"type": "heading",
+				"value": ["Benefits of SDN"]
+			},
+			{
+				"row": 10,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["SDN is meant to provide increased agility and flexibility to help businesses deploy the latest applications and services in the existing infrastructure to meet business objectives heads on. With every new modification and creation, a simple update integrates it throughout the network."]
+			}
+		]
+	}
+
+}
