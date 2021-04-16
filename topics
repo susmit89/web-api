@@ -1,5 +1,7 @@
 [
   { "_id": "5b21ca3eeb7f6fbccd471818", "name": "Artificial Intelligence" },
   { "_id": "5b21ca3eeb7f6fbccd471814", "name": "Network" },
-  { "_id": "5b21ca3eeb7f6fbccd471820", "name": "Security" }
+  { "_id": "5b21ca3eeb7f6fbccd471820", "name": "Security" },
+  { "_id": "5b21ca3eeb7f6fbccd471432", "name": "DevOps" },
+  { "_id": "5b21ca3eeb7f6fbccd486865", "name": "Data Analytics" },
 ]
