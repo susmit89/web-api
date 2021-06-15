@@ -110,6 +110,44 @@
 				"column": 0,
 				"type": "code",
 				"value": ["height=[9,6,10,7,9]\nstack = [] #initialize stack\nresult = [0,0,0,0,0] #initialize array to store positon of taller person on right\nstack.append(0) #add person standing at 0 position\nfor current in range(1, len(height)*2): #iterate through from second person till last\n\twhile stack and height[stack[-1]] < height[current % len(height)]: \n\t\t#compare current person height with the height of the person at the top of the stack\n\t\t#current person is taller person for the person at top of stack\n\t\tresult[stack.pop()] = current % len(height)\n\tstack.append(current % len(height))\nprint(result) #[2, 2, 0, 4, 2], 3rd person can see 2nd person now"]
+			},
+			{
+				"row": 15,
+				"column": 0,
+				"type": "heading",
+				"value": ["Where can we use  Monotonic Stack?"]
+			},
+			{
+				"row": 16,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["Once we understand the framework for monotonic stack we can use it for various problems. Few examples are given below"]
+			},
+			{
+				"row": 17,
+				"column": 0,
+				"type": "subheading",
+				"value": ["Find the next warmer day from today"]
+			},
+			{
+				"row": 18,
+				"column": 0,
+				"type": "image",
+				"caption": ["Find the next warmer day from today"],
+				"reference": "images/montonic_stack_temperatures.jpg"
+				
+			},
+			{
+				"row": 19,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["We can use the same framework as above. Only change here is since we have to record number of days we have to wait, we take difference of index of current temperature and index of temperature we popped out from stack."]
+			},
+			{
+				"row": 20,
+				"column": 0,
+				"type": "code",
+				"value": ["def dailyTemperatures(temperatures):\n\tn = len(temperatures) \n\t res = [0]*n\n\t stack = [0]\n\tfor current in range(n) \n\t\twhile stack and temperatures[stack[-1]] < temperatures[current]: \n\t\t\tindex = stack.pop() \n\t\t\tres[index] = current - index #difference of current index and index at top of stack \n\t\tstack.append(current) \n\treturn res #result = [1,1,4,2,1,1,0,0]"]
 			}
 		]
 	}
