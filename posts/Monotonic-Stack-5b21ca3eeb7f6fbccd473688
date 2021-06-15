@@ -55,7 +55,8 @@
 				"row": 6,
 				"column": 0,
 				"type": "paragraph",
-				"value": ["FL enables devices like mobile phones to collaboratively learn a shared prediction model while keeping the training data on the device instead of requiring the data to be uploaded and stored on a central server."]
+				"value": ["That's where the monotonic stack comes in. We are going to store the height of the current person in the stack and move to the next. We compare the current person's height with the height of the person at the top of the stack. If we found the current person is taller than the person in the stack we pop that person from the stack. We found the taller person of the person we put in the stack. If the stack is still not empty we do the same comparison until the stack is empty or the current person is shorter. We use a loop for this operation. At the end of the loop
+we add the current person to stack. This way we traverse the list only once."]
 			},
 			{
 				"row": 7,
