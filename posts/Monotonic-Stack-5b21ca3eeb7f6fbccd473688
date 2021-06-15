@@ -37,7 +37,7 @@
 				"column": 0,
 				"type": "image",
 				"caption": ["Consider an example where 5 people with different heights are standing in line and one has to tell who is the next tallest person standing on the right side?"],
-				"reference": "https://github.com/susmit89/web-api/blob/main/images/person_height.jpg"
+				"reference": "images/person_height.jpg"
 			},
 			{
 				"row": 4,
