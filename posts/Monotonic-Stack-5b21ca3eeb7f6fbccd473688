@@ -141,7 +141,7 @@
 				"row": 19,
 				"column": 0,
 				"type": "paragraph",
-				"value": ["We can use the same framework as above. Only change here is since we have to record number of days we have to wait, we take difference of index of current temperature and index of temperature we popped out from stack."]
+				"value": ["We can use the same framework as above. The only change here is since we have to record the number of days we have to wait, we take the difference of the index of the current temperature and the index of the temperature we popped out from the stack."]
 			},
 			{
 				"row": 20,
