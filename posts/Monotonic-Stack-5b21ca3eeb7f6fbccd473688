@@ -156,6 +156,38 @@
 				"column": 0,
 				"type": "code",
 				"value": ["def dailyTemperatures(temperatures):\n\tn = len(temperatures) \n\t res = [0]*n\n\t stack = [0]\n\tfor current in range(n) \n\t\twhile stack and temperatures[stack[-1]] < temperatures[current]: \n\t\t\tindex = stack.pop() \n\t\t\tres[index] = current - index #difference of current index and index at top of stack \n\t\tstack.append(current) \n\treturn res #result = [1,1,4,2,1,1,0,0]"]
+			},
+			{
+				"row": 22,
+				"column": 0,
+				"type": "subheading",
+				"value": ["Largest Rectangle in Histogram"]
+			},
+			{
+				"row": 23,
+				"column": 0,
+				"type": "link",
+				"title": ["84. Largest Rectangle in Histogram"],
+				"link": "https://leetcode.com/problems/largest-rectangle-in-histogram/"
+			},
+			{
+				"row": 24,
+				"column": 0,
+				"type": "image",
+				"caption": ["Given an array of integers heights representing the histogram's bar height where the width of each bar is 1, return the area of the largest rectangle in the histogram. "],
+				"reference": "images/monotonic_stack_lc_histogram.jpeg"
+			},
+			{
+				"row": 25,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["In the given sequence we start looking at the taller bar on the right, same as previous problems. But we now also have to take care of lower bounds to have accurate width. We initialize the stack with -1 index, so that when we are given only one bar, the maximum area will be the height of that bar. Also add 0 height to the sequence so we can take the last element into consideration."]
+			},
+			{
+				"row": 26,
+				"column": 0,
+				"type": "code",
+				"value": ["def largestRectangleArea(heights):\n\theights.append(0) #one more iteration to handle last element\n\tstack  = [-1]\n\tmaxArea = 0\n\tn = len(heights)\n\tfor i in range(n):\n\t\twhile stack and heights[stack[-1]] > heights[i]:\n\t\t\th = heights[stack.pop()]\n\t\t\tw = i - 1 - stack[-1]  #stack[-1] - 1 is lower bound\n\t\t\tmaxArea = max(maxArea, h * w)\n\t\tstack.append(i)\n\treturn maxArea #result 10"]
 			}
 		]
 	}
