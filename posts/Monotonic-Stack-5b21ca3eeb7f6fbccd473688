@@ -8,7 +8,7 @@
 	},
 	"numberInStock": 6,
 	"dailyRentalRate": 2.5,
-	"publishDate": "2020-01-03T19:04:28.809Z",
+	"publishDate": "2021-06-10T19:04:28.809Z",
 	"metadata": ["Stack is one of the popular data structures used in a lot of algorithms like backtracking, depth-for-search(DFS), reverse string, undo/redo, call stack and many more. There are many forms of stacks such as Min Stack - which gives the minimum number in stack in constant time O(1). Max Stack - which gives the maximum number. Other than that there is a monotonic stack. It is called monotonic because the order in the stack is either increasing or decreasing."],
 	"content": {
 		"rows": 7,
