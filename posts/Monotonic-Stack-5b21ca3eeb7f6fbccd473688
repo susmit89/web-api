@@ -77,14 +77,14 @@
 			{
 				"row": 9,
 				"column": 0,
-				"type": "paragraph",
-				"value": ["It works like this: your device downloads the current model, improves it by learning from data on your phone, and then summarizes the changes as a small focused update. Only this update to the model is sent to the cloud, using encrypted communication, where it is immediately averaged with other user updates to improve the shared model. All the training data remains on your device, and no individual updates are stored in the cloud."]
+				"type": "heading",
+				"value": ["How to use Monotonic Stack"]
 			},
 			{
 				"row": 10,
 				"column": 0,
-				"type": "heading",
-				"value": ["Where to use Montonic Stack"]
+				"type": "paragraph",
+				"value": ["We can use the same monotonic Stack to find a short person to the right by changing comparison for less than to greater than. We can also change direction to find the tallest person on the left side by changing the for loop to iterate from last element to first."]
 			},
 			{
 				"row": 11,
