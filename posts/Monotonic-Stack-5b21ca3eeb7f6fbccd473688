@@ -49,7 +49,7 @@
 				"row": 5,
 				"column": 0,
 				"type": "paragraph",
-				"value": ["for current_person_height in heights:\n\tfor person_on_right_height in heights:\n\t\tif current_person_height < person_on_right_height:\n\t\t\tprint(“Tallest person on right height is ”, person_on_right_height)"]
+				"value": ["for current_person_height in heights:\n \t for person_on_right_height in heights:\n\t\tif current_person_height < person_on_right_height:\n\t\t\tprint(“Tallest person on right height is ”, person_on_right_height)"]
 			},
 			{
 				"row": 6,
