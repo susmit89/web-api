@@ -60,8 +60,8 @@
 			{
 				"row": 7,
 				"column": 0,
-				"type": "heading",
-				"value": ["How to solve problems usiing Monotonic Stack"]
+				"type": "code",
+				"value": ["height=[9,6,10,7,9]\nstack = [] #initialize stack\nresult = [0,0,0,0,0] #initialize array to store positon of taller person on right\nstack.append(0) #add person standing at 0 position\nfor current in range(1, len(height)): #iterate through from second person till last\n\twhile stack and height[stack[-1]] < height[current]: #compare current person height with the height of the person at the top of the stack\n\t\t#current person is taller person for the person at top of stack\n\t\tresult[stack.pop()] = current\n\t stack.append(current)\nprint(result) #[2, 2, 0, 4, 0]"]
 			},
 			{
 				"row": 8,
