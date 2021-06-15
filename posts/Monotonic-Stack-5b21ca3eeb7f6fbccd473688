@@ -43,13 +43,13 @@
 				"row": 4,
 				"column": 0,
 				"type": "paragraph",
-				"value": ["Federated learning (FL) in contrast, is an approach that downloads the current model and computes an updated model at the device itself (ala edge computing) using local data. These locally trained models are then sent from the devices back to the central server where they are aggregated, i.e. averaging weights, and then a single consolidated and improved global model is sent back to the devices."]
+				"value": ["We can solve this problem by considering one person at a time and comparing heights of the person standing next to the right. That means for every person we have traversed once. So two find the answer we traverse n^2. Is there a way we can find out by going through each person once?"]
 			},
 			{
 				"row": 5,
 				"column": 0,
 				"type": "paragraph",
-				"value": ["In a more general sense, FL allows for machine learning algorithms to gain experience from a broad range of data sets located at different locations. The approach enables multiple organizations to collaborate on the development of models, but without needing to directly share secure data with each other. Over the course of several training iterations, the shared models get exposed to a significantly wider range of data than what any single organization possesses in-house. In other words, FL decentralizes machine learning by removing the need to pool data into a single location. Instead, the model is trained in multiple iterations at different locations."]
+				"value": ["for current_person_height in heights:\n\tfor person_on_right_height in heights:\n\t\tif current_person_height < person_on_right_height:\n\t\t\tprint(“Tallest person on right height is ”, person_on_right_height)"]
 			},
 			{
 				"row": 6,
