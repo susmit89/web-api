@@ -74,6 +74,18 @@
 		"numberInStock": 6,
 		"dailyRentalRate": 2.5,
 		"publishDate": "2021-04-16T19:04:28.809Z"
+	},
+	{
+		"_id ": "5b21ca3eeb7f6fbccd473688",
+		"id": "Bloom-Filters-5b21ca3eeb7f6fbccd473682",
+		"title": "Monotonic Stack",
+		"topic": {
+			"_id": "5b21ca3eeb7f6fbccd486865",
+			"name": "Data Structure"
+		},
+		"numberInStock": 6,
+		"dailyRentalRate": 2.5,
+		"publishDate": "2021-06-14T19:04:28.809Z"
 	}
 
 ]
