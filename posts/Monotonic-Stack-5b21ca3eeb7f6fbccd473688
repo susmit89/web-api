@@ -132,19 +132,27 @@
 			{
 				"row": 18,
 				"column": 0,
+				"type": "link",
+				"title": ["739. Daily Temperatures"],
+				"link": "https://leetcode.com/problems/daily-temperatures/"
+				
+			},
+			{
+				"row": 19,
+				"column": 0,
 				"type": "image",
 				"caption": ["Find the next warmer day from today"],
 				"reference": "images/montonic_stack_temperatures.jpg"
 				
 			},
 			{
-				"row": 19,
+				"row": 20,
 				"column": 0,
 				"type": "paragraph",
 				"value": ["We can use the same framework as above. The only change here is since we have to record the number of days we have to wait, we take the difference of the index of the current temperature and the index of the temperature we popped out from the stack."]
 			},
 			{
-				"row": 20,
+				"row": 21,
 				"column": 0,
 				"type": "code",
 				"value": ["def dailyTemperatures(temperatures):\n\tn = len(temperatures) \n\t res = [0]*n\n\t stack = [0]\n\tfor current in range(n) \n\t\twhile stack and temperatures[stack[-1]] < temperatures[current]: \n\t\t\tindex = stack.pop() \n\t\t\tres[index] = current - index #difference of current index and index at top of stack \n\t\tstack.append(current) \n\treturn res #result = [1,1,4,2,1,1,0,0]"]
