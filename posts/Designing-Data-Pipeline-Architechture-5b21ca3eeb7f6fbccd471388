@@ -55,7 +55,7 @@
 				"row": 6,
 				"column": 0,
 				"type": "paragraph",
-				"value": ["This is the heart of the data pipeline. Data can be processed in two ways - Batch Processing and Stream Processing."]
+				"value": ["This is the heart of the data pipeline. Data structures and Algorithms need to be super-efficient in processing systems. Different types of map-reduce techniques, AI models are used for processing. Data can be processed in two ways - Batch Processing and Stream Processing."]
 			},
 			{
 				"row": 7,
@@ -72,20 +72,20 @@
 			{
 				"row": 9,
 				"column": 0,
-				"type": "heading",
-				"value": [""]
+				"type": "subheading",
+				"value": ["Datastore"]
 			},
 			{
 				"row": 10,
 				"column": 0,
 				"type": "paragraph",
-				"value": [""]
+				"value": ["Analytical data store serves the processed data in a structured format that can be queried using analytical tools. Data can serve queries using relational data warehouses like AWS Redshift, SparkSQL, or data could be presented through a low-latency NoSQL technology like HBase or Cassandra which provides a metadata abstraction over data files in the distributed data store."]
 			},
 			{
 				"row": 11,
 				"column": 0,
-				"type": "heading",
-				"value": ["When using source or target or combined data"]
+				"type": "subheading",
+				"value": ["Query Engine"]
 			},
 			{
 				"row": 12,
