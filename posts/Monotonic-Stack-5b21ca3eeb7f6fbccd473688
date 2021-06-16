@@ -188,12 +188,6 @@
 				"column": 0,
 				"type": "code",
 				"value": ["def largestRectangleArea(heights):\n\theights.append(0) #one more iteration to handle last element\n\tstack  = [-1]\n\tmaxArea = 0\n\tn = len(heights)\n\tfor i in range(n):\n\t\twhile stack and heights[stack[-1]] > heights[i]:\n\t\t\th = heights[stack.pop()]\n\t\t\tw = i - 1 - stack[-1]  #stack[-1] - 1 is lower bound\n\t\t\tmaxArea = max(maxArea, h * w)\n\t\tstack.append(i)\n\treturn maxArea #result 10"]
-			},
-			{
-				"row": 27,
-				"column": 0,
-				"type": "code",
-				"value": ["\ndef master(**kwargs):\n    env=kwargs['env']\n    service=kwargs['service']\n    config=kwargs[\"config\"]\n    tag=kwargs[\"config\"][env]['build']['tag']\n    return (service, 'master', tag, config[env]['deploy'].get('dns_name',''))"]
 			}
 
 		]
