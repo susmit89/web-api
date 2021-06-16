@@ -48,26 +48,26 @@
 			{
 				"row": 5,
 				"column": 0,
-				"type": "heading",
-				"value": ["How to use bloom filters"]
+				"type": "subheading",
+				"value": ["Processing Systems"]
 			},
 			{
 				"row": 6,
 				"column": 0,
 				"type": "paragraph",
-				"value": [""]
+				"value": ["This is the heart of the data pipeline. Data can be processed in two ways - Batch Processing and Stream Processing."]
 			},
 			{
 				"row": 7,
 				"column": 0,
-				"type": "heading",
-				"value": ["Where is bloom filters used"]
+				"type": "paragraph",
+				"value": ["Batch Processing does not require queue and can be directly used data in from data source. Batch Processing is not real-time. It might be a scheduled minute, hourly or daily. Batch Processing is sometimes also referred to as ETL (Extract, Transform, Load) process data files using long-running batch jobs to filter, aggregate and prepare data for analysis. Usually, these jobs involve reading source files, processing them and writing the output to the new files.  Batch Processing is popular with AI models. This is because AI models require a high amount of resources to run in real-time. Even with that it still can be still slow."]
 			},
 			{
 				"row": 8,
 				"column": 0,
 				"type": "paragraph",
-				"value": [""]
+				"value": ["Stream Processing capturing real-time messages, the solution must process them by filtering, aggregating, and otherwise preparing the data for analysis. Processed stream data is written to the output sink. Apache Storm and Spark are popular stream processing engines."]
 			},
 			{
 				"row": 9,
