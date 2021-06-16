@@ -18,19 +18,20 @@
 				"row": 0,
 				"column": 0,
 				"type": "heading",
-				"value": ["What are bloom filters?"]
+				"value": ["Basic components of Data Pipeline"]
 			},
 			{
 				"row": 1,
 				"column": 0,
 				"type": "paragraph",
-				"value": [""]
+				"value": ["Every data pipeline requires at least four components, Data source, Processing Systems, Data Storage and Query engine."]
 			},
 			{
 				"row": 2,
 				"column": 0,
-				"type": "paragraph",
-				"value": [""]
+				"type": "image",
+				"caption": ["Data Pipeline Architecture"],
+				"references":"images/data_pipeline_arch.jpg"
 			},
 			{
 				"row": 3,
