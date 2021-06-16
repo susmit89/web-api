@@ -135,7 +135,7 @@
 				"type": "link",
 				"title": ["LeetCode 739. Daily Temperatures"],
 				"link": "https://leetcode.com/problems/daily-temperatures/"
-				
+
 			},
 			{
 				"row": 19,
@@ -143,7 +143,7 @@
 				"type": "image",
 				"caption": ["Find the next warmer day from today"],
 				"reference": "images/montonic_stack_temperatures.jpg"
-				
+
 			},
 			{
 				"row": 20,
@@ -193,9 +193,9 @@
 				"row": 27,
 				"column": 0,
 				"type": "code",
-				"value": ["\\ndef master(**kwargs):\\n    env=kwargs[\\"env\\"]\\n    service=kwargs[\\"service\\"]\\n    config=kwargs[\\"config\\"]\\n    tag=kwargs[\\"config\\"][env][\\"build\\"][\\"tag\\"]\\n    return (service, \\"master\\", tag, config[env][\\"deploy\\"].get(\\"dns_name\\",\\"\\"))"]
+				"value": ["\ndef master(**kwargs):\n    env=kwargs['env']\n    service=kwargs['service']\n    config=kwargs[\"config\"]\n    tag=kwargs[\"config\"][env]['build']['tag']\n    return (service, 'master', tag, config[env]['deploy'].get('dns_name',''))"]
 			}
-			
+
 		]
 	}
 }
