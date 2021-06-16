@@ -31,7 +31,7 @@
 				"column": 0,
 				"type": "image",
 				"caption": ["Data Pipeline Architecture"],
-				"references":"images/data_pipeline_arch.jpg"
+				"reference":"images/data_pipeline_arch.jpg"
 			},
 			{
 				"row": 3,
