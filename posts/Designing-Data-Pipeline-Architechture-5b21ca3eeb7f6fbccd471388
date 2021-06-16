@@ -36,14 +36,14 @@
 			{
 				"row": 3,
 				"column": 0,
-				"type": "paragraph",
-				"value": [""]
+				"type": "subheading",
+				"value": ["Data Source"]
 			},
 			{
 				"row": 4,
 				"column": 0,
 				"type": "paragraph",
-				"value": [""]
+				"value": ["There could be one or many data sources for the data pipeline. Ideally, data sources are transactional databases like Mysql, Postgres, or NoSQL like MongoDB. In some cases, if data is media files like photos, documents source could be S3 or any other object-store. There could be real-time sources too like stream data from mobiles, logs from servers or databases(Change Data Capture). If the data source is streamed probably message queue is required. Message queue acts as a buffer for the processing unit. Popular message queues like Kafka and rabbitMQ can be used."]
 			},
 			{
 				"row": 5,
