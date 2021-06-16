@@ -86,6 +86,18 @@
 		"numberInStock": 6,
 		"dailyRentalRate": 2.5,
 		"publishDate": "2021-06-14T19:04:28.809Z"
+	},
+	{
+		"_id ": "5b21ca3eeb7f6fbccd471388",
+		"id": "Designing-Data-Pipeline-Architechture-5b21ca3eeb7f6fbccd471388",
+		"title": "Designing Data Pipeline Architechture",
+		"topic": {
+			"_id": "5b21ca3eeb7f6fbccd486891",
+			"name": "Data Analytics"
+		},
+		"numberInStock": 6,
+		"dailyRentalRate": 2.5,
+		"publishDate": "2021-06-16T19:04:28.809Z"
 	}
 
 ]
