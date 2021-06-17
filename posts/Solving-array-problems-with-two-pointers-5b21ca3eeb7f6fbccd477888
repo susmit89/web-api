@@ -48,8 +48,9 @@
 			{
 				"row": 5,
 				"column": 0,
-				"type": "heading",
-				"value": ["How to use bloom filters"]
+				"type": "link",
+				"title": ["167. Two Sum II - Input array is sorted"],
+				"link": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/"
 			},
 			{
 				"row": 6,
