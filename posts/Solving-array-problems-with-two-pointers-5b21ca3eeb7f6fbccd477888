@@ -37,7 +37,7 @@
 				"column": 0,
 				"type": "image",
 				"caption": ["For a given sorted array [2,7,11,15] find the two numbers such that the sum is equal to the target 9."],
-        "reference": "images/array_two_pointer_sum.jpg"
+				"reference": "images/array_two_pointer_sum.jpg"
 			},
 			{
 				"row": 4,
@@ -62,7 +62,7 @@
 				"row": 7,
 				"column": 0,
 				"type": "list",
-				"value": ["We need one pointer to start the array and another pointer at the end of the array.", "We take the sum of start and end. If the sum is equal to the target we return numbers at the start or end.", "If we find the sum is less than the target we need a bigger number this we can find by moving the start pointer by 1.", "We compare again if the sum matches target return numbers at start and end. If the sum is larger than the target we need a smaller number.", "We can find smaller numbers by moving the end towards the left. We do this repeatedly until the start and end are together. If we did not find we would return -1.","Below is the python code"]
+				"value": ["We need one pointer to start the array and another pointer at the end of the array.", "We take the sum of start and end. If the sum is equal to the target we return numbers at the start or end.", "If we find the sum is less than the target we need a bigger number this we can find by moving the start pointer by 1.", "We compare again if the sum matches target return numbers at start and end. If the sum is larger than the target we need a smaller number.", "We can find smaller numbers by moving the end towards the left. We do this repeatedly until the start and end are together. If we did not find we would return -1.", "Below is the python code"]
 			},
 			{
 				"row": 8,
@@ -74,47 +74,35 @@
 				"row": 9,
 				"column": 0,
 				"type": "heading",
-				"value": [""]
+				"value": ["Find the duplicates in the array"]
 			},
 			{
 				"row": 10,
 				"column": 0,
-				"type": "paragraph",
+				"type": "link",
 				"value": [""]
 			},
 			{
 				"row": 11,
 				"column": 0,
-				"type": "heading",
-				"value": ["When using source or target or combined data"]
+				"type": "image",
+				"caption": ["Given an array of integers nums containing n + 1 integers where each integer is in the range [1, n] inclusive. There is only one repeated number in nums, return this repeated number."],
+				"reference": "images/array_two_pointer_dup.jpg"
 			},
 			{
 				"row": 12,
 				"column": 0,
-				"type": "paragraph",
-				"value": [""]
+				"type": "list",
+				"value": ["Use two pointers the fast and the slow.", "The fast one goes forward two steps each time, while the slow one goes only step each time.", "They must meet the same item when slow==fast.", "In fact, they meet in a circle, the duplicate number must be the entry point of the circle when visiting the array from nums[0].", "Next we just need to find the entry point. We use a point(we can use the fast one before) to visit form begining with one step each time, do the same job to slow. When fast==slow, they meet at the entry point of the circle."]
 			},
 			{
 				"row": 13,
 				"column": 0,
-				"type": "paragraph",
-				"value": [""]
-			},
-			{
-				"row": 14,
-				"column": 0,
-				"type": "heading",
-				"value": ["References"]
-			},
-			{
-				"row": 15,
-				"column": 0,
-				"type": "references",
-				"value": [{
-					"authors": "Xingyi Yang∗, Xuehai He∗,Yuxiao Liang, Yue Yang",
-					"title": "Transfer Learning or Self-supervised Learning? A Tale of Two Pretraining Paradigms"
-				}]
+				"type": "code",
+				"value": ["def findDuplicate(nums):\n        n = len(nums)\n        if n > 1:\n            slow = nums[0]\n            fast = nums[slow]\n            while slow != fast:\n                slow = nums[slow]\n                fast = nums[nums[fast]]\n            fast = 0\n            while fast != slow:\n                fast = nums[fast]\n                slow = nums[slow]\n            return slow\n        return -1"]
 			}
 		]
+
+
 	}
 }
