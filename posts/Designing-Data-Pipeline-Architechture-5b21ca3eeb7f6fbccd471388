@@ -91,28 +91,19 @@
 				"row": 12,
 				"column": 0,
 				"type": "paragraph",
-				"value": [""]
+				"value": ["A CLI(command line) based query engine or UI based query engine pulls data from datastore and presents the data to reporting tools. Query engines like prestoDB can aggregate data from different datastores. They can present data in proper structure which can be used in data mining or training AI models. With proper tools like Power BI, Tableau, or Kibana this data can be explored and visualized."]
 			},
 			{
 				"row": 13,
 				"column": 0,
-				"type": "paragraph",
-				"value": [""]
+				"type": "subheading",
+				"value": ["Orchestrator"]
 			},
 			{
 				"row": 14,
 				"column": 0,
 				"type": "heading",
-				"value": ["References"]
-			},
-			{
-				"row": 15,
-				"column": 0,
-				"type": "references",
-				"value": [{
-					"authors": "Xingyi Yang∗, Xuehai He∗,Yuxiao Liang, Yue Yang",
-					"title": "Transfer Learning or Self-supervised Learning? A Tale of Two Pretraining Paradigms"
-				}]
+				"value": ["Orchestrator is an optional component. Data pipeline consists of repeated data processing operations, encapsulated in workflows, that transform source data, move data between multiple sources and sinks, load the processed data into an analytical data store, or push the results straight to a report or dashboard. To automate these workflows, orchestration tools like apache airflow are helpful."]
 			}
 		]
 	}
