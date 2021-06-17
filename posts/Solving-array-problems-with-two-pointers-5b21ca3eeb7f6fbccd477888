@@ -68,7 +68,7 @@
 				"row": 8,
 				"column": 0,
 				"type": "code",
-				"value": ["def twoSum(numbers, target):\n        start = 0 #point start to left \n        end = len(numbers)-1  #point end to right. we use len-1 because array index starts with 0 \n        sum = 0 #initial sum with 0\n        while start != end : #run loop until start and end point to same number\n            sum = numbers[start] + numbers[end] \n            if sum > target: \n                end -= 1 #look for smaller number\n            elif sum < target:\n                start +=1 #look for larger number\n            else:\n                return [start+1,end+1] #condition satisfied"]
+				"value": ["def twoSum(numbers, target):\n        start = 0 #point start to left \n        end = len(numbers)-1  #point end to right. we use len-1 because array index starts with 0 \n        sum = 0 #initial sum with 0\n        while start != end : #run loop until start and end point to same number\n            sum = numbers[start] + numbers[end] \n            if sum > target: \n                end -= 1 #look for smaller number\n            elif sum < target:\n                start +=1 #look for larger number\n            else:\n                return [start+1,end+1] #condition satisfied\n\treturn -1"]
 			},
 			{
 				"row": 9,
