@@ -61,7 +61,7 @@
 				"row": 7,
 				"column": 0,
 				"type": "paragraph",
-				"value": ["Batch Processing does not require queue and can be directly used data in from data source. Batch Processing is not real-time. It might be a scheduled minute, hourly or daily. Batch Processing is sometimes also referred to as ETL (Extract, Transform, Load) process data files using long-running batch jobs to filter, aggregate and prepare data for analysis. Usually, these jobs involve reading source files, processing them and writing the output to the new files.  Batch Processing is popular with AI models. This is because AI models require a high amount of resources to run in real-time. Even with that it still can be still slow."]
+				"value": ["Batch Processing does not require a queue and can be directly used data from the data source. Batch Processing is not real-time. It might be a scheduled minute, hourly or daily. Batch Processing is sometimes also referred to as ETL (Extract, Transform, Load) process data files using long-running batch jobs to filter, aggregate, and prepare data for analysis. Usually, these jobs involve reading source files, processing them, and writing the output to the new files. Batch Processing is popular with AI models. This is because AI models require a high amount of resources to run in real-time. Even with that it still can be still slow."]
 			},
 			{
 				"row": 8,
