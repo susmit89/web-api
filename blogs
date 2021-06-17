@@ -98,6 +98,18 @@
 		"numberInStock": 6,
 		"dailyRentalRate": 2.5,
 		"publishDate": "2021-06-16T19:04:28.809Z"
+	},
+	{
+		"_id ": "5b21ca3eeb7f6fbccd477888",
+		"id": "Solving-array-problems-with-two-pointers-5b21ca3eeb7f6fbccd477888",
+		"title": "Solving array problems with two pointers",
+		"topic": {
+			"_id": "5b21ca3eeb7f6fbccd486412",
+			"name": "Algorithms"
+		},
+		"numberInStock": 6,
+		"dailyRentalRate": 2.5,
+		"publishDate": "2021-06-16T19:04:28.809Z"
 	}
 
 ]
