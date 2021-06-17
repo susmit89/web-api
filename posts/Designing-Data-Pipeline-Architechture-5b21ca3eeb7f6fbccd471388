@@ -102,7 +102,7 @@
 			{
 				"row": 14,
 				"column": 0,
-				"type": "heading",
+				"type": "paragraph",
 				"value": ["Orchestrator is an optional component. Data pipeline consists of repeated data processing operations, encapsulated in workflows, that transform source data, move data between multiple sources and sinks, load the processed data into an analytical data store, or push the results straight to a report or dashboard. To automate these workflows, orchestration tools like apache airflow are helpful."]
 			}
 		]
