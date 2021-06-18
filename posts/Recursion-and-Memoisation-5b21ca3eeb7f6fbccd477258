@@ -1,0 +1,110 @@
+{
+	"_id ": "5b21ca3eeb7f6fbccd477258",
+	"id": "Recursion-and-Memoisation-5b21ca3eeb7f6fbccd477258",
+	"title": "Bloom Filters",
+	"topic": {
+		"_id": "5b21ca3eeb7f6fbccd485765",
+		"name": "Data Structure"
+	},
+	"numberInStock": 6,
+	"dailyRentalRate": 2.5,
+	"publishDate": "2021-04-16T19:04:28.809Z",
+	"metadata": ["The recursive call to a function is one of the methods to solve a problem that is made of many sub-problems. In recursion, the main idea is to find a base sub-problem and use it recursively. E.g Find factorial of 6.  We calculate 6! by multiplying 6 with 5!. Calculate 5! by multiplying 5 with 4!. So recursively we can solve factorial of n by calculating n * func(n-1). But while running this program the computer still needs to calculate every factorial. To calculate 6! it will still need to calculate 4! even though we already calculated 4! while calculating 5!. This is time-consuming so we use small memory to store previous calculations. Before doing new calculations first we check if the calculation is already in memory. If it is not, we calculate the result from memory. This is called Memoization. This method is pretty popular for solving Dynamic Programming and Backtracking Problems."],
+	"content": {
+		"rows": 7,
+		"coumns": 0,
+		"images": {},
+		"text": [{
+				"row": 0,
+				"column": 0,
+				"type": "heading",
+				"value": [""]
+			},
+			{
+				"row": 1,
+				"column": 0,
+				"type": "paragraph",
+				"value": [""]
+			},
+			{
+				"row": 2,
+				"column": 0,
+				"type": "paragraph",
+				"value": [""]
+			},
+			{
+				"row": 3,
+				"column": 0,
+				"type": "paragraph",
+				"value": [""]
+			},
+			{
+				"row": 4,
+				"column": 0,
+				"type": "paragraph",
+				"value": [""]
+			},
+			{
+				"row": 5,
+				"column": 0,
+				"type": "heading",
+				"value": [""]
+			},
+			{
+				"row": 6,
+				"column": 0,
+				"type": "paragraph",
+				"value": [""]
+			},
+			{
+				"row": 7,
+				"column": 0,
+				"type": "heading",
+				"value": [""]
+			},
+			{
+				"row": 8,
+				"column": 0,
+				"type": "paragraph",
+				"value": [""]
+			},
+			{
+				"row": 9,
+				"column": 0,
+				"type": "heading",
+				"value": [""]
+			},
+			{
+				"row": 10,
+				"column": 0,
+				"type": "paragraph",
+				"value": [""]
+			},
+			{
+				"row": 11,
+				"column": 0,
+				"type": "heading",
+				"value": [""]
+			},
+			{
+				"row": 12,
+				"column": 0,
+				"type": "paragraph",
+				"value": [""]
+			},
+			{
+				"row": 13,
+				"column": 0,
+				"type": "paragraph",
+				"value": [""]
+			},
+			{
+				"row": 14,
+				"column": 0,
+				"type": "heading",
+				"value": ["References"]
+			}]
+			}
+		]
+	}
+}
