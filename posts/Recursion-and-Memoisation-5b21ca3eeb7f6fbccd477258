@@ -18,25 +18,25 @@
 				"row": 0,
 				"column": 0,
 				"type": "heading",
-				"value": [""]
+				"value": ["Fibonacci Series with Recursion and Iteration"]
 			},
 			{
 				"row": 1,
 				"column": 0,
 				"type": "paragraph",
-				"value": [""]
+				"value": ["The Fibonacci Series is a classic problem in programming. It can be solved using recursion and memoization. Following is the python code to solve Fibonacci Series for n using recursion and memoization."]
 			},
 			{
 				"row": 2,
 				"column": 0,
-				"type": "paragraph",
-				"value": [""]
+				"type": "code",
+				"value": ["#Fibonnaci Series with recursion\ndef fib(n):\n    if n==0:\n        return 0\n    if n == 1: \n        return 1\n    return fib(n-1) + fib(n-2)\n\nn=6\nwhile n:\n    print(fib(n)) #print sequence 1,1,2,3,5,8\n    n-=1"]
 			},
 			{
 				"row": 3,
 				"column": 0,
-				"type": "paragraph",
-				"value": [""]
+				"type": "code",
+				"value": ["def fib(n, memo): #with Memo and recursion\n    if n==0:\n        return 0\n    if n == 1: \n        return 1\n    if n not in memo:  #if n is already solved return solved value else calculate and add to memo\n        memo[n] = fib(n-1, memo) + fib(n-2, memo)\n    return memo[n]\nn=6\nmemo={}\nwhile n:\n    print(fib(n,memo)) #print sequence 1,1,2,3,5,8\n    n-=1"]
 			},
 			{
 				"row": 4,
