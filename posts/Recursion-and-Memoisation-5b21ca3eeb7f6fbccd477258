@@ -18,7 +18,7 @@
 				"row": 0,
 				"column": 0,
 				"type": "heading",
-				"value": ["Fibonacci Series with Recursion and Iteration"]
+				"value": ["Fibonacci Series with Recursion and Memoisation"]
 			},
 			{
 				"row": 1,
