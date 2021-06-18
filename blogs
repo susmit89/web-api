@@ -110,6 +110,18 @@
 		"numberInStock": 6,
 		"dailyRentalRate": 2.5,
 		"publishDate": "2021-06-16T19:04:28.809Z"
+	},
+	{
+		"_id ": "5b21ca3eeb7f6fbccd477258",
+		"id": "Recursion-and-Memoisation-5b21ca3eeb7f6fbccd477258",
+		"title": "Recursion and Memoisation",
+		"topic": {
+			"_id": "5b21ca3eeb7f6fbccd486412",
+			"name": "Algorithms"
+		},
+		"numberInStock": 6,
+		"dailyRentalRate": 2.5,
+		"publishDate": "2021-06-18T19:04:28.809Z"
 	}
 
 ]
