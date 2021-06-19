@@ -105,7 +105,7 @@
 				"row": 14,
 				"column": 0,
 				"type": "code",
-				"value": ["class ListNode:\n    def __init__(self, val=0, next=None):\n        self.val = val\n        self.next = next\n        \ndef mergeTwoLists(a: ListNode, b: ListNode) -> ListNode:\n    if not a or b and a.val > b.val: #check if a or b is null and b is smaller than a\n        a, b = b, a #swap a and b\n        if a: #if a is not null go to next node of a\n            a.next = self.mergeTwoLists(a.next, b)\n        return a #return a"]
+				"value": ["class ListNode:\n    def __init__(self, val=0, next=None):\n        self.val = val\n        self.next = next\n        \ndef mergeTwoLists(a: ListNode, b: ListNode) -> ListNode:\n    if not a or b and a.val > b.val: #check if a or b is null and b is smaller than a\n        a, b = b, a #swap a and b\n    if a: #if a is not null go to next node of a\n        a.next = self.mergeTwoLists(a.next, b)\n    return a #return a"]
 			}
 			
 			
