@@ -55,7 +55,7 @@
 				"row": 6,
 				"column": 0,
 				"type": "paragraph",
-				"value": ["In the above both codes we use recursion. In the first code, it seems we don’t require extra memory. But that is not true. The computer requires to store partial results in the stack before calculating sub-problems. After calculation, it pops out partial results from the stack and computes results. For Eg for n = 3, the computer pushes fib(3), then it pushes fib(2) and calculates fib(1) which is 1. Then it pops fib(2) from the stack and calculates. Finally, pop fib(3), calculate, and return the result. It does the same even if we use memoization. It is not space-efficient that is why we use iteration. All the recursion problems can be solved as iteration problems. It might get complicated but could be more efficient than recursion. Following is the iteration of the same Fibonacci Series"]
+				"value": ["In the above both codes we use recursion. In the first code, it seems we don’t require extra memory. But that is not true. The computer requires to store partial results in the stack before calculating sub-problems. After calculation, it pops out partial results from the stack and computes results. For Eg for n = 3, the computer pushes fib(3), then it pushes fib(2) and calculates fib(1) which is 1. Then it pops fib(2) from the stack and calculates. Finally, pop fib(3), calculate, and return the result. It does the same even if we use memoization. It is not space-efficient that is why we use iteration. All the recursion problems can be solved as iteration problems. It might get complicated but could be more efficient than recursion. Following is the iteration code of the same Fibonacci Series"]
 			},
 			{
 				"row": 7,
