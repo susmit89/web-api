@@ -106,6 +106,12 @@
 				"column": 0,
 				"type": "code",
 				"value": ["class ListNode:\n    def __init__(self, val=0, next=None):\n        self.val = val\n        self.next = next\n        \ndef mergeTwoLists(a: ListNode, b: ListNode) -> ListNode:\n    if not a or b and a.val > b.val: #check if a or b is null and b is smaller than a\n        a, b = b, a #swap a and b\n    if a: #if a is not null go to next node of a\n        a.next = self.mergeTwoLists(a.next, b)\n    return a #return a"]
+			},
+			{
+				"row": 13,
+				"column": 0,
+				"type": "code",
+				"value": ["With Iteration\ndef mergeTwoLists(a: ListNode, b: ListNode) -> ListNode:\n        head = dummy = ListNode(0) #use dummy node amd head, keep adding lowest number to head\n        while a or b:\n            if a and not b: #if a is null, add b to head\n                head.next = a\n                a=a.next\n            elif b and not a: #if b is null, add a to head\n                head.next = b\n                b=b.next\n            elif a.val > b.val: #if both not null, add lowest\n                head.next = b\n                b=b.next\n            else:\n                head.next = a\n                a=a.next\n            head = head.next #make head.next as new head\n                \n        return dummy.next\n"]
 			}
 			
 			
