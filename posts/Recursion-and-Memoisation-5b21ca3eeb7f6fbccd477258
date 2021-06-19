@@ -47,65 +47,22 @@
 			{
 				"row": 5,
 				"column": 0,
-				"type": "paragraph",
-				"value": ["In the above both codes we use recursion. In the first code, it seems we don’t require extra memory. But that is not true. The computer requires to store partial results in the stack before calculating sub-problems. After calculation, it pops out partial results from the stack and computes results. For Eg for n = 3, the computer pushes fib(3), then it pushes fib(2) and calculates fib(1) which is 1. Then it pops fib(2) from the stack and calculates. Finally, pop fib(3), calculate, and return the result. It does the same even if we use memoization. It is not space-efficient that is why we use iteration. All the recursion problems can be solved as iteration problems. It might get complicated but could be more efficient than recursion. Following is the iteration of the same Fibonacci Series"]
+				"type": "image",
+				"value": ["Recursion and implicit memory"],
+				"reference": "images/recursion_stack_5b21ca3eeb7f6fbccd477258.jpg"
 			},
 			{
 				"row": 6,
 				"column": 0,
-				"type": "code",
-				"value": ["def fib(n, memo): #with Memo and iteration\n    if n==0:\n        return 0\n    memo[0]=0 #base cases\n    memo[1]=1\n    i=2\n    while i<=n:\n        if i not in memo:  \n            memo[i] = memo[i-1] + memo[i-2]\n        i+=1\n        \n    return memo[n]\nn=6\nmemo={}\nwhile n:\n    print(fib(n,memo)) #print sequence 1,1,2,3,5,8\n    n-=1"]
+				"type": "paragraph",
+				"value": ["In the above both codes we use recursion. In the first code, it seems we don’t require extra memory. But that is not true. The computer requires to store partial results in the stack before calculating sub-problems. After calculation, it pops out partial results from the stack and computes results. For Eg for n = 3, the computer pushes fib(3), then it pushes fib(2) and calculates fib(1) which is 1. Then it pops fib(2) from the stack and calculates. Finally, pop fib(3), calculate, and return the result. It does the same even if we use memoization. It is not space-efficient that is why we use iteration. All the recursion problems can be solved as iteration problems. It might get complicated but could be more efficient than recursion. Following is the iteration of the same Fibonacci Series"]
 			},
 			{
 				"row": 7,
 				"column": 0,
-				"type": "heading",
-				"value": [""]
-			},
-			{
-				"row": 8,
-				"column": 0,
-				"type": "paragraph",
-				"value": [""]
-			},
-			{
-				"row": 9,
-				"column": 0,
-				"type": "heading",
-				"value": [""]
-			},
-			{
-				"row": 10,
-				"column": 0,
-				"type": "paragraph",
-				"value": [""]
-			},
-			{
-				"row": 11,
-				"column": 0,
-				"type": "heading",
-				"value": [""]
-			},
-			{
-				"row": 12,
-				"column": 0,
-				"type": "paragraph",
-				"value": [""]
-			},
-			{
-				"row": 13,
-				"column": 0,
-				"type": "paragraph",
-				"value": [""]
-			},
-			{
-				"row": 14,
-				"column": 0,
-				"type": "heading",
-				"value": ["References"]
+				"type": "code",
+				"value": ["def fib(n, memo): #with Memo and iteration\n    if n==0:\n        return 0\n    memo[0]=0 #base cases\n    memo[1]=1\n    i=2\n    while i<=n:\n        if i not in memo:  \n            memo[i] = memo[i-1] + memo[i-2]\n        i+=1\n        \n    return memo[n]\nn=6\nmemo={}\nwhile n:\n    print(fib(n,memo)) #print sequence 1,1,2,3,5,8\n    n-=1"]
 			}
-
-
 		]
 	}
 }
