@@ -99,7 +99,7 @@
 				"row": 13,
 				"column": 0,
 				"type": "list",
-				"value": ["Here we have two linked lists a and b. We want to use recursion.","We keep updating a and at the end, we will return the head of a.","But before solving any recursion problems we need to check base condition.","In this case base condition is check for b. If b is null then return a. If b is less than a then swap a and b.","Then we use recursion to check the next nodes of a and b."]
+				"value": ["Here we have two linked lists a and b. We want to use recursion.","We keep updating a and at the end, we will return the head of a.","But before solving any recursion problems we need to check base condition.","In this case base condition is check for b. If b is null then return a. If b is less than a then swap a and b.","Then we use recursion to check the next nodes of a."]
 			},
 			{
 				"row": 14,
