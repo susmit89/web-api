@@ -62,7 +62,53 @@
 				"column": 0,
 				"type": "code",
 				"value": ["def fib(n, memo): #with Memo and iteration\n    if n==0:\n        return 0\n    memo[0]=0 #base cases\n    memo[1]=1\n    i=2\n    while i<=n:\n        if i not in memo:  \n            memo[i] = memo[i-1] + memo[i-2]\n        i+=1\n        \n    return memo[n]\nn=6\nmemo={}\nwhile n:\n    print(fib(n,memo)) #print sequence 1,1,2,3,5,8\n    n-=1"]
+			},
+			{
+				"row": 8,
+				"column": 0,
+				"type": "heading",
+				"value": ["Solving Recursion problems"]
+			},
+			{
+				"row": 9,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["Recursion is a very popular and easiest technique to solve Linked List and Binary Tree problems. Most of the recursion problem can be solved in O(n) time and space complexity where n is the number of nodes. Following are few examples."]
+			},
+			{
+				"row": 10,
+				"column": 0,
+				"type": "subheading",
+				"value": [" Merge Two Sorted Lists"]
+			},
+			{
+				"row": 11,
+				"column": 0,
+				"type": "link",
+				"title": [" Merge Two Sorted Lists"],
+				"link": "https://leetcode.com/problems/merge-two-sorted-lists/"
+			},
+			{
+				"row": 12,
+				"column": 0,
+				"type": "image",
+				"caption": ["Given a two sorted linked list merge it into one linked list"],
+				"reference": "images/merge_ex1_5b21ca3eeb7f6fbccd477258.jpg"
+			},
+			{
+				"row": 13,
+				"column": 0,
+				"type": "list",
+				"value": ["Here we have two linked lists a and b. We want to use recursion.","We keep updating a and at the end, we will return the head of a.","But before solving any recursion problems we need to check base condition.","In this case base condition is check for b. If b is null then return a. If b is less than a then swap a and b.","Then we use recursion to check the next nodes of a and b."]
+			},
+			{
+				"row": 14,
+				"column": 0,
+				"type": "code",
+				"value": ["class ListNode:\n    def __init__(self, val=0, next=None):\n        self.val = val\n        self.next = next\n        \ndef mergeTwoLists(a: ListNode, b: ListNode) -> ListNode:\n    if not a or b and a.val > b.val: #check if a or b is null and b is smaller than a\n        a, b = b, a #swap a and b\n        if a: #if a is not null go to next node of a\n            a.next = self.mergeTwoLists(a.next, b)\n        return a #return a"]
 			}
+			
+			
 		]
 	}
 }
