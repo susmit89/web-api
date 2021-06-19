@@ -18,7 +18,7 @@
 				"row": 0,
 				"column": 0,
 				"type": "heading",
-				"value": ["Fibonacci Series with Recursion and Memoisation"]
+				"value": ["Fibonacci Series with Recursion and Memoization"]
 			},
 			{
 				"row": 1,
@@ -79,7 +79,7 @@
 				"row": 10,
 				"column": 0,
 				"type": "subheading",
-				"value": [" Merge Two Sorted Lists"]
+				"value": ["Merge Two Sorted Lists"]
 			},
 			{
 				"row": 11,
