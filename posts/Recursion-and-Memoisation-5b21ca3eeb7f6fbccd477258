@@ -1,7 +1,7 @@
 {
 	"_id ": "5b21ca3eeb7f6fbccd477258",
 	"id": "Recursion-and-Memoisation-5b21ca3eeb7f6fbccd477258",
-	"title": "Recursion and Memoisation",
+	"title": "Recursion and Memoization",
 	"topic": {
 		"_id": "5b21ca3eeb7f6fbccd486412",
 		"name": "Algorithms"
