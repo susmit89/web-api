@@ -48,7 +48,7 @@
 				"row": 5,
 				"column": 0,
 				"type": "image",
-				"value": ["Recursion and implicit memory"],
+				"caption": ["Recursion and implicit memory"],
 				"reference": "images/recursion_stack_5b21ca3eeb7f6fbccd477258.jpg"
 			},
 			{
