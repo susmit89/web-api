@@ -1,0 +1,67 @@
+{
+	"_id ": "5b21ca3eeb7f6fbccd479458",
+	"id": "Review-of-Arzt-et-al-FlowDroid-precise-context-flow-field-object-sensitive-and-lifecycle-aware-taint-analysis-for-Android-apps-5b21ca3eeb7f6fbccd479458",
+	"title": "Review of Arzt et al., FlowDroid: precise context, flow, field, object-sensitive and lifecycle-aware taint analysis for Android apps",
+	"topic": {
+		"_id": "5b21ca3eeb7f6fbccd471820",
+		"name": "Security"
+	},
+	"numberInStock": 6,
+	"dailyRentalRate": 2.5,
+	"publishDate": "2021-07-02T19:04:28.809Z",
+	"metadata": ["Android phones are used in our everyday life and it is very common for apps to disclose sensitive information to any storage, logs, or advertisers that abuse private data. Problems are sensitive data disclosures and leak private data through a dangerously broad set of permission granted by the user i.e. allow the application to read/edit messages, network communication, personal information (read/write contact details, etc), etc. "],
+	"content": {
+		"rows": 7,
+		"coumns": 0,
+		"images": {},
+		"text": [{
+				"row": 0,
+				"column": 0,
+				"type": "heading",
+				"value": ["Overview"]
+			},
+			{
+				"row": 1,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["Current methods face complexity problems due to the lifecycle of android applications like multiple entry points, recognizing different callbacks, asynchronous execution of components, and detection of sensitive information through analysis of manifest and layout XML files. This paper introduces the static data analysis method Flowdroid. The main purpose of Flowdroid is analysis with very high recall and precision. To achieve this goal FlowDroid increased precision to build an analysis that is context-, flow-, field- and object-sensitive and increased recall to create a complete model of Android’s app lifecycle. FlowDroid uses a very precise call graph which helps us to ensure flow and context sensitivity. Its IFDS-based flow functions guarantee field- and object sensitivity. Because an accurate and efficient alias search is crucial for context-sensitivity in conjunction with field-sensitivity, the paper highlight this part of their analysis, which is inspired by Andromeda."]
+			},
+			{
+				"row": 2,
+				"column": 0,
+				"type": "heading",
+				"value": ["Strengths"]
+			},
+			{
+				"row": 3,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["Flowdroid is a novel static taint analysis for android that analyses both byte-code and configuration files. This paper also contributed a novel, open and comprehensive micro-benchmark suite for Android flow analyses i.e DroidBench. Experiments performed demonstrated superior precision and recall to commercial tools and manageable runtimes on real-world apps. Analyzing the information flows are driven by demands instead of eagerly computing all the data-flows. Every field may not contain sensitive information, so analyzing such fields in flow is not mandatory.  Successfully detect data flows whether caused by carelessness or malicious intent."]
+			},
+			{
+				"row": 4,
+				"column": 0,
+				"type": "heading",
+				"value": ["Weakness"]
+			},
+			{
+				"row": 5,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["FlowDroid assumes arbitrary, but sequential ordering, thus can’t handle multi-threading. It resolves reflective calls only if their arguments are string constants. Rule-based taint propagation for external libraries. Native C calls are treated as the black box. If not a predefined rule, assume tainted input leads to tainted output. The evaluation showed array was handled imprecisely due to failed model array indices. The Paper does not mention the overheads of FlowDroid on Android neither it mentions CPU benchmark. Because it is static taint analysis it does not find vulnerabilities introduced in the runtime environment."]
+			},
+			{
+				"row": 6,
+				"column": 0,
+				"type": "",
+				"value": ["Future Work"]
+			},
+			{
+				"row": 7,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["In the future the principles explained in the paper can be reused outside the scope of taint analysis, ideally yielding a rather generic extension of IFDS. Supporting implicit intent-based communication with a more accurate inter-component connection model. Fully incorporating sound support for multi-threading.  It assumes all static initializers to execute at the beginning of the program, which is untrue. Determining exactly where such initializers can execute at runtime is an interesting research topic. Integrate FlowDroid with EPICC that uses string analysis to precisely resolve inter-app communication and improve the support for handling reflection."]
+			}
+		]
+	}
+}
