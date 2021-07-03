@@ -134,7 +134,20 @@
 		"numberInStock": 6,
 		"dailyRentalRate": 2.5,
 		"publishDate": "2021-0702T19:04:28.809Z"
+	},
+	{
+		"_id ": "5b21ca3eeb7f6fbccd479558",
+		"id": "Review-of-Hao-et-al-Puma-Programmable-UI-Automation-for-Large-Scale-Dynamic-Analysis-of-Mobile-Apps-5b21ca3eeb7f6fbccd479558",
+		"title": "Review of Hao et al. Puma: Programmable UI-Automation for Large-Scale Dynamic Analysis of Mobile Apps",
+		"topic": {
+			"_id": "5b21ca3eeb7f6fbccd471820",
+			"name": "Security"
+		},
+		"numberInStock": 6,
+		"dailyRentalRate": 2.5,
+		"publishDate": "2021-0702T19:04:28.809Z"
 	}
+	
 	
 
 ]
