@@ -1,0 +1,67 @@
+{
+	"_id ": "5b21ca3eeb7f6fbccd479858",
+	"id": "Review-of-Review-of-Enck-et-al-TaintDroid-An-Information-Flow-Tracking-System-for-Realtime-Privacy-Monitoring-on-Smartphoness-5b21ca3eeb7f6fbccd479858",
+	"title": "Review of Enck et al., TaintDroid: An Information-Flow Tracking System for Realtime Privacy Monitoring on Smartphones",
+	"topic": {
+		"_id": "5b21ca3eeb7f6fbccd471820",
+		"name": "Security"
+	},
+	"numberInStock": 6,
+	"dailyRentalRate": 2.5,
+	"publishDate": "2021-07-03T19:04:28.809Z",
+	"metadata": ["This paper addresses the problem of smartphone users regarding adequate control over and visibility into how third-party applications use their private data."],
+	"content": {
+		"rows": 7,
+		"coumns": 0,
+		"images": {},
+		"text": [{
+				"row": 0,
+				"column": 0,
+				"type": "heading",
+				"value": ["Overview"]
+			},
+			{
+				"row": 1,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["TaintDroid is a system-wide integration of taint tracking into the Android platform. It works better because of variable tracking throughout Dalvik VM environment, patches state after native method invocation, and tracking extended between applications and to storage. In the paper, the authors modified the Dalvik VM interpreter to store and propagate taint tags that are, a taint bit-vector on variables. Taindroid tracking works by identifying sources of information and sinks where the information leaves the device. Tainted information is tracked using taint tags which are stored adjacent to the tainted variable using properties of the Dalvik VM."]
+			},
+			{
+				"row": 2,
+				"column": 0,
+				"type": "heading",
+				"value": ["Strengths"]
+			},
+			{
+				"row": 3,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["Taintdroid provides efficient, system-wide, dynamic taint tracking and analysis for Android. It identifies vulnerabilities in a runtime environment. It takes 4 granularities of taint propagations into account: variable-level, message-level, method-level, file-level. Taintdroid had 14% performance overhead on CPU-bound micro bench and 3.5% memory overhead which is small considering the storage of taint tags. Taintdroid is open source which makes it available for research and more improvement. The authors updated their firmware to support Android 4.3 that shows this research is live."]
+			},
+			{
+				"row": 4,
+				"column": 0,
+				"type": "heading",
+				"value": ["Weakness"]
+			},
+			{
+				"row": 5,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["Taintdroid has approach limitations. Firstly Taintdroid only tracks data flows i.e. explicit flows making it circumventable. The malicious application can create problems and exfiltrate privacy-sensitive information through control flow.  Taintdroid likely to cause false positives. The network is only considered as the sink. Sensitive information can propagate back from the network. It is implemented at the firmware level and is not an application. In order to run it, one has to download and install a new or custom Android image which is too complicated for the end-user. Taintdroid did not monitor all methods available. Only 913 out of 2844 JNI methods. The remaining 1931 methods were unmonitored. Native code is left unmonitored. Lack of evaluation data on power consumption."]
+			},
+			{
+				"row": 6,
+				"column": 0,
+				"type": "heading",
+				"value": ["Future Work"]
+			},
+			{
+				"row": 7,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["The future direction for traindroid could be more real-time tracking, enforcement, and filtering. Integrating with the expert rating system and providing direct feedback to users in form of notifications. Eliminating or reducing false positives through better management of variable-level tags. It can use source code analysis to monitor the flow of all 2844 JNI methods in Android."]
+			}
+		]
+	}
+}
