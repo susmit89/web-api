@@ -158,7 +158,20 @@
 		"numberInStock": 6,
 		"dailyRentalRate": 2.5,
 		"publishDate": "2021-07-03T19:04:28.809Z"
+	},
+	{
+		"_id ": "5b21ca3eeb7f6fbccd479458",
+		"id": "Review-of-Arzt-et-al-FlowDroid-precise-context-flow-field-object-sensitive-and-lifecycle-aware-taint-analysis-for-Android-apps-5b21ca3eeb7f6fbccd479458",
+		"title": "Review of Arzt et al., FlowDroid: precise context, flow, field, object-sensitive and lifecycle-aware taint analysis for Android apps",
+		"topic": {
+			"_id": "5b21ca3eeb7f6fbccd471820",
+			"name": "Security"
+		},
+		"numberInStock": 6,
+		"dailyRentalRate": 2.5,
+		"publishDate": "2021-07-03T19:04:28.809Z"
 	}
+	
 	
 	
 
