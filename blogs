@@ -125,8 +125,8 @@
 	},
 	{
 		"_id ": "5b21ca3eeb7f6fbccd479058",
-		"id": "Storing-Credentials-in-AWS-Kubernetes-CiCD-5b21ca3eeb7f6fbccd479058",
-		"title": "Storing Credentials in AWS, Kubernetes, Ci/CD",
+		"id": "Storing-Credentials-in-AWS-Kubernetes-CICD-5b21ca3eeb7f6fbccd479058",
+		"title": "Storing Credentials in AWS, Kubernetes, CI/CD",
 		"topic": {
 			"_id": "5b21ca3eeb7f6fbccd471432",
 			"name": "DevOps"
