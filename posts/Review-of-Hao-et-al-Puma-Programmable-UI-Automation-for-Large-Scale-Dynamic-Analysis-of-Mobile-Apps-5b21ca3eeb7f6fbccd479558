@@ -17,17 +17,23 @@
 		"text": [{
 				"row": 0,
 				"column": 0,
-				"type": "paragraph",
-				"value": ["PUMA is good at event sequencing and automatic explorations. It could be good at reproducing because of its programmable ability. It is good at saving time especially in the case of regression testing, which is retesting done after some changes have been incorporated to previously tested PUMAscripts. Tests can be run at a fast pace repeatedly and the risk of human error is minimized, making it more effective. PUMA brings transparency. UI manipulation is abstracted so that it can be optimized with a proper rendering technique."]
+				"type": "heading",
+				"value": ["Overview"]
 			},
 			{
 				"row": 1,
 				"column": 0,
 				"type": "paragraph",
-				"value": ["The monkey tool triggers a set of pseudo-random events on the GUI. For example, Monkey could generate inputs that may turn on airplane mode, turn off Wi-Fi, or even turn off the USB debugging mode (which is necessary for device-based analysis), etc. All of these will affect the performance of the dynamic analysis tools. Hence the execution path is random and not structured.The monkey tool triggers a set of pseudo-random events on the GUI. For example, Monkey could generate inputs that may turn on airplane mode, turn off Wi-Fi, or even turn off the USB debugging mode (which is necessary for device-based analysis), etc. All of these will affect the performance of the dynamic analysis tools. Hence the execution path is random and not structured."]
+				"value": ["PUMA is good at event sequencing and automatic explorations. It could be good at reproducing because of its programmable ability. It is good at saving time especially in the case of regression testing, which is retesting done after some changes have been incorporated to previously tested PUMAscripts. Tests can be run at a fast pace repeatedly and the risk of human error is minimized, making it more effective. PUMA brings transparency. UI manipulation is abstracted so that it can be optimized with a proper rendering technique."]
 			},
 			{
 				"row": 2,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["The monkey tool triggers a set of pseudo-random events on the GUI. For example, Monkey could generate inputs that may turn on airplane mode, turn off Wi-Fi, or even turn off the USB debugging mode (which is necessary for device-based analysis), etc. All of these will affect the performance of the dynamic analysis tools. Hence the execution path is random and not structured.The monkey tool triggers a set of pseudo-random events on the GUI. For example, Monkey could generate inputs that may turn on airplane mode, turn off Wi-Fi, or even turn off the USB debugging mode (which is necessary for device-based analysis), etc. All of these will affect the performance of the dynamic analysis tools. Hence the execution path is random and not structured."]
+			},
+			{
+				"row": 3,
 				"column": 0,
 				"type": "paragraph",
 				"value": ["In UI Automator, the same can be done with resource IDs as UI Automator has general accessibility on labels, e.g. text, description, etc. But if there are more elements with the same text, there’s a need to add an index for the instance. And, if the UI changes dynamically, it might be a big problem. PUMA may be difficult for debugging. It may get more difficult as the complexity of the application increases. Integrating animations/transitions into data-driven frameworks is tricky and needs extra effort."]
