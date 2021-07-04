@@ -24,95 +24,44 @@
 				"row": 1,
 				"column": 0,
 				"type": "paragraph",
-				"value": ["As the name suggests, greedy algorithms exploit the current situation. It tries to find the best solution in a given amount of time. If a given problem requires multiple steps to reach a goal, greedy algorithms make better choices at the moment not taking future steps into consideration. This works but may give sub-optimal results. For example in the figure below the robot wants to reach the goal node. Each node has some cost associated with it. Also reaching each node is constant time. There are multiple-goal nodes so any goal node is acceptable. Let's apply a greedy algorithm to this problem.  Given a choice between 1, 2, and 3, the robot will choose node 3 because at this point the cost of node 3 is the lowest. After reaching node 3 it has only one choice to reach its goal. So the cost of the path is 17. So if you notice, the algorithm explored one path to reach its goal even though the path through node 1 cost less than 17. So we reached our goal but our solution was not optimal."]
+				"value": ["As the name suggests, greedy algorithms exploit the current situation. It tries to find the best solution in a given amount of time. If a given problem requires multiple steps to reach a goal, greedy algorithms make better choices at the moment not taking future steps into consideration. This works but may give sub-optimal results."]
 			},
 			{
 				"row": 2,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["For example in the figure below the robot wants to reach the goal node. Each node has some cost associated with it. Also reaching each node is constant time. There are multiple-goal nodes so any goal node is acceptable. Let's apply a greedy algorithm to this problem.  Given a choice between 1, 2, and 3, the robot will choose node 3 because at this point the cost of node 3 is the lowest. After reaching node 3 it has only one choice to reach its goal. So the cost of the path is 17. So if you notice, the algorithm explored one path to reach its goal even though the path through node 1 cost less than 17. So we reached our goal but our solution was not optimal."]
+			},
+			{
+				"row": 3,
 				"column": 0,
 				"type": "image",
 				"caption": ["Try robot reach a goal node"],
 				"reference": "images/greedy_vs_dp_eewf.jpg"
 			},
 			{
-				"row": 3,
-				"column": 0,
-				"type": "paragraph",
-				"value": [""]
-			},
-			{
 				"row": 4,
 				"column": 0,
-				"type": "paragraph",
-				"value": [""]
+				"type": "heading",
+				"value": ["Dynamic Programming"]
 			},
 			{
 				"row": 5,
+				"column": 0,
+				"type": "paragraph",
+				"value": [""]
+			},
+			{
+				"row": 6,
 				"column": 0,
 				"type": "heading",
 				"value": ["How to use bloom filters"]
 			},
 			{
-				"row": 6,
-				"column": 0,
-				"type": "paragraph",
-				"value": [""]
-			},
-			{
 				"row": 7,
 				"column": 0,
-				"type": "heading",
-				"value": ["Where is bloom filters used"]
-			},
-			{
-				"row": 8,
-				"column": 0,
 				"type": "paragraph",
 				"value": [""]
-			},
-			{
-				"row": 9,
-				"column": 0,
-				"type": "heading",
-				"value": [""]
-			},
-			{
-				"row": 10,
-				"column": 0,
-				"type": "paragraph",
-				"value": [""]
-			},
-			{
-				"row": 11,
-				"column": 0,
-				"type": "heading",
-				"value": ["When using source or target or combined data"]
-			},
-			{
-				"row": 12,
-				"column": 0,
-				"type": "paragraph",
-				"value": [""]
-			},
-			{
-				"row": 13,
-				"column": 0,
-				"type": "paragraph",
-				"value": [""]
-			},
-			{
-				"row": 14,
-				"column": 0,
-				"type": "heading",
-				"value": ["References"]
-			},
-			{
-				"row": 15,
-				"column": 0,
-				"type": "references",
-				"value": [{
-					"authors": "Xingyi Yang∗, Xuehai He∗,Yuxiao Liang, Yue Yang",
-					"title": "Transfer Learning or Self-supervised Learning? A Tale of Two Pretraining Paradigms"
-				}]
 			}
 		]
 	}
