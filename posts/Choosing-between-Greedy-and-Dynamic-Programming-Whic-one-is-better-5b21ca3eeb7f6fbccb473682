@@ -54,14 +54,14 @@
 			{
 				"row": 6,
 				"column": 0,
-				"type": "heading",
-				"value": ["How to use bloom filters"]
+				"type": "paragraph",
+				"value": ["In the above example, dynamic programming will divide each path into sub-problem. It will explore each path and calculate the cost to reach the goal node. It returns the path with the lowest cost. So in the above example, it will return cost 13."]
 			},
 			{
 				"row": 7,
 				"column": 0,
-				"type": "paragraph",
-				"value": [""]
+				"type": "heading",
+				"value": ["Trade-Off between two"]
 			}
 		]
 	}
