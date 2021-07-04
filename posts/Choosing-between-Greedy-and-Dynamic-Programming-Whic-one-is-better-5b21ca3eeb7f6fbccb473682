@@ -8,7 +8,7 @@
 	},
 	"numberInStock": 6,
 	"dailyRentalRate": 2.5,
-	"publishDate": "2021-07-03T19:04:28.809Z",
+	"publishDate": "2021-07-04T00:04:28.809Z",
 	"metadata": ["Greedy and Dynamic Programming are used to solve many day-to-day applications. Both algorithms have their own time and space complexity. This post discusses the difference between the two and explores the trade-off of using one algorithm over another."],
 	"content": {
 		"rows": 7,
