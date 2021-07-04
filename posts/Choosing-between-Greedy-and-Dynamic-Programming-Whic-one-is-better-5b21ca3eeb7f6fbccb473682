@@ -49,7 +49,7 @@
 				"row": 5,
 				"column": 0,
 				"type": "paragraph",
-				"value": [""]
+				"value": ["Dynamic Programming divides the problem and solves each sub-problem. It combines solutions to each problem to get a global solution. Solution by dynamic programming is always optimal. Dynamic programming requires extra memory to store solutions of each sub-problems. Memory also acts as a lookup table to see if the sub-problem is already solved."]
 			},
 			{
 				"row": 6,
