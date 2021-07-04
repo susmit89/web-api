@@ -62,7 +62,20 @@
 				"column": 0,
 				"type": "heading",
 				"value": ["Trade-Off between two"]
+			},
+			{
+				"row": 8,
+				"column": 0,
+				"type": "list",
+				"value": ["When we used dynamic programming we got optimal solution while greedy gave sub-optimal solution","In greedy we stopped the algorithm the moment we reached the goal node, so we explored only one path. In dynamic, we continued exploring even when we found a goal node for a better path.","Since dynamic explored all paths it required more memory and compute compared to greedy. Also, it took more time to give results."]
+			},
+			{
+				"row": 9,
+				"column": 0,
+				"type": "heading",
+				"value": ["Choosing between two"]
 			}
+			
 		]
 	}
 }
