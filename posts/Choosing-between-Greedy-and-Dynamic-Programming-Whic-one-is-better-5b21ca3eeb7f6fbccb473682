@@ -67,15 +67,21 @@
 				"row": 8,
 				"column": 0,
 				"type": "list",
-				"value": ["When we used dynamic programming we got optimal solution while greedy gave sub-optimal solution","In greedy we stopped the algorithm the moment we reached the goal node, so we explored only one path. In dynamic, we continued exploring even when we found a goal node for a better path.","Since dynamic explored all paths it required more memory and compute compared to greedy. Also, it took more time to give results."]
+				"value": ["When we used dynamic programming we got optimal solution while greedy gave sub-optimal solution", "In greedy we stopped the algorithm the moment we reached the goal node, so we explored only one path. In dynamic, we continued exploring even when we found a goal node for a better path.", "Since dynamic explored all paths it required more memory and compute compared to greedy. Also, it took more time to give results."]
 			},
 			{
 				"row": 9,
 				"column": 0,
 				"type": "heading",
 				"value": ["Choosing between two"]
+			},
+			{
+				"row": 10,
+				"column": 0,
+				"type": "list",
+				"value": ["In the above example if there was only one goal node greedy could have given optimal results. If we already know the problem has one unique solution choose greedy because it will find the optimal solution in less time than dynamic using less memory", "If we are not aware of the number of solutions to the problem and we only want the optimal solution, choose dynamic", "If available memory is limited and sub-optimal results are acceptable then use greedy. If an optimal solution is expected we need to apply space optimization to dynamic programming. But care needs to be taken, the time complexity is not affected.", "In the case of large problem space, dynamic programming is very slow, for example, a vacuum robot. Even for small problem space, dynamic programming calculation of states could be large. The same problem solved by greedy in minutes may take hours by dynamic with large memory. That's why in a real-world application, greedy is more preferred than dynamic with an acceptable margin of error.", "Dynamic requires each state to be known to calculate the result. In real-world examples it is likely we may not know each state. Some heuristics may be unknown to us. In such cases, we can choose a greedy algorithm."]
 			}
-			
+
 		]
 	}
 }
