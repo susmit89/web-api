@@ -182,9 +182,21 @@
 		"numberInStock": 6,
 		"dailyRentalRate": 2.5,
 		"publishDate": "2021-07-04T07:04:28.809Z"
+	},
+	{
+		"_id ": "5b21ca3eeb7f7fbccd473682",
+		"id": "Differences-between-Temporal-Difference-Monte-Carlo-and-Dynamic-Programming-based-approaches-to-Reinforcement-Learning-RL-5b21ca3eeb7f7fbccd473682",
+		"title": "Differences between Temporal Difference, Monte Carlo and Dynamic Programming based approaches to Reinforcement Learning (RL)",
+		"topic": {
+			"_id": "5b21ca3eeb7f6fbccd471818",
+			"name": "Artificial Intelligence"
+		},
+		"numberInStock": 6,
+		"dailyRentalRate": 2.5,
+		"publishDate": "2021-07-04T19:04:28.809Z"
 	}
-	
-	
-	
+
+
+
 
 ]
