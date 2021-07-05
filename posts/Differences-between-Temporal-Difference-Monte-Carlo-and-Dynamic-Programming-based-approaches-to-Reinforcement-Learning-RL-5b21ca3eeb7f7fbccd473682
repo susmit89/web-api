@@ -18,100 +18,73 @@
 				"row": 0,
 				"column": 0,
 				"type": "heading",
-				"value": ["What are bloom filters?"]
+				"value": ["Machine learning and Reinforcement Learning"]
 			},
 			{
 				"row": 1,
 				"column": 0,
 				"type": "paragraph",
-				"value": [""]
+				"value": ["Machine Learning is a set of rules that a computer develops on its own to correctly solve problems.  Reinforcement Learning is a type of Machine Learning and a branch of Artificial Intelligence. It allows machines and software agents to automatically determine the ideal behavior within a specific context, to maximize its performance without any supervision. Simple reward feedback is required for the agent to learn its behavior."]
 			},
 			{
 				"row": 2,
 				"column": 0,
 				"type": "paragraph",
-				"value": [""]
+				"value": ["A mobile robot decides whether it should enter a new room in search of more trash to collect or start trying to find its way back to its battery recharging station. It makes its decision based on how quickly and easily it has been able to find the recharger in the past. This example involves interaction between an active decision-making agent and its environment, within which the agent seeks to achieve a goal despite uncertainty about its environment.  The agent's actions affect the future state of the environment and thus may require foresight or planning."]
 			},
 			{
 				"row": 3,
 				"column": 0,
-				"type": "paragraph",
-				"value": [""]
+				"type": "heading",
+				"value": ["Components of Reinforcement Learning"]
 			},
 			{
 				"row": 4,
 				"column": 0,
 				"type": "paragraph",
-				"value": [""]
+				"value": ["Reinforcement learning has four main sub-elements: a policy, a reward function, a value function, and, optionally, a model of the environment. A policy defines the learning agent's way of behaving at a given time. A reward function defines the goal achieved at a given state and action. A reward function indicates what is good in an immediate sense, a value function represents a prediction of reward at some future time, based on the current state. A model is simply the set of probability functions that determine how an agent would behave in any given state of the system."]
 			},
 			{
 				"row": 5,
 				"column": 0,
 				"type": "heading",
-				"value": ["How to use bloom filters"]
+				"value": ["Different methods to solve Reinforcement Learning"]
 			},
 			{
 				"row": 6,
 				"column": 0,
 				"type": "paragraph",
-				"value": [""]
+				"value": ["There are different methods to solve reinforcement learning problems:  dynamic programming, Monte Carlo methods, and temporal-difference learning."]
 			},
 			{
 				"row": 7,
 				"column": 0,
-				"type": "heading",
-				"value": ["Where is bloom filters used"]
+				"type": "paragraph",
+				"value": ["In dynamic programming, we require a complete and accurate model of the environment."]
 			},
 			{
 				"row": 8,
 				"column": 0,
 				"type": "paragraph",
-				"value": [""]
+				"value": ["Monte-Carlo requires only experience such as sample sequences of states, actions, and rewards from online or simulated interaction with an environment.  Unlike dynamic programming, it requires no prior knowledge of the environment."]
 			},
 			{
 				"row": 9,
 				"column": 0,
-				"type": "heading",
-				"value": [""]
+				"type": "paragraph",
+				"value": ["Temporal-difference methods require no model. The agent learns to predict the expected value of a variable occurring at the end of a sequence of states. The Temporal-difference method allows the learned state-values to guide actions that subsequently change the environment state."]
 			},
 			{
 				"row": 10,
 				"column": 0,
-				"type": "paragraph",
-				"value": [""]
+				"type": "heading",
+				"value": ["Reinforcement Learning to environments with large or infinite state spaces"]
 			},
 			{
 				"row": 11,
 				"column": 0,
-				"type": "heading",
-				"value": ["When using source or target or combined data"]
-			},
-			{
-				"row": 12,
-				"column": 0,
 				"type": "paragraph",
-				"value": [""]
-			},
-			{
-				"row": 13,
-				"column": 0,
-				"type": "paragraph",
-				"value": [""]
-			},
-			{
-				"row": 14,
-				"column": 0,
-				"type": "heading",
-				"value": ["References"]
-			},
-			{
-				"row": 15,
-				"column": 0,
-				"type": "references",
-				"value": [{
-					"authors": "Xingyi Yang∗, Xuehai He∗,Yuxiao Liang, Yue Yang",
-					"title": "Transfer Learning or Self-supervised Learning? A Tale of Two Pretraining Paradigms"
-				}]
+				"value": ["In reinforcement learning number of states often grows exponentially with the number of state variables.  It requires computation and memory for every state. For some problems, even this much memory and computation is impractical. This is why it is unsuitable for image recognition. The deep neural network allows reinforcement learning to be applied to larger problems like automated character recognition."]
 			}
 		]
 	}
