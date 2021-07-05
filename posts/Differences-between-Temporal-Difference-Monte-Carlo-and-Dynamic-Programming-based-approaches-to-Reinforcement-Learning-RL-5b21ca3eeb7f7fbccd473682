@@ -60,7 +60,7 @@
 				"row": 7,
 				"column": 0,
 				"type": "paragraph",
-				"value": ["In dynamic programming, we require a complete and accurate model of the environment."]
+				"value": ["In dynamic programming, we require a complete and accurate model of the environment. It requires all the previous states."]
 			},
 			{
 				"row": 8,
