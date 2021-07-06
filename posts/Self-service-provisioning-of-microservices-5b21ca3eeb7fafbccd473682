@@ -71,7 +71,7 @@
 			{
 				"row": 9,
 				"column": 0,
-				"type": "heading",
+				"type": "paragraph",
 				"value": ["New service access and operational security should be integrated with existing security to make sure different ongoing infrastructure operations are  secure and resilient."]
 			},
 			{
