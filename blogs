@@ -194,6 +194,18 @@
 		"numberInStock": 6,
 		"dailyRentalRate": 2.5,
 		"publishDate": "2021-07-04T19:04:28.809Z"
+	},
+	{
+		"_id ": "5b21ca3eeb7fafbccd473682",
+		"id": "Self-service-provisioning-of-microservices-5b21ca3eeb7fafbccd473682",
+		"title": "Self-service provisioning of microservices",
+		"topic": {
+			"_id": "5b21ca3eeb7f6fbccd471432",
+			"name": "DevOps"
+		},
+		"numberInStock": 6,
+		"dailyRentalRate": 2.5,
+		"publishDate": "2021-07-05T19:04:28.809Z"
 	}
 
 
