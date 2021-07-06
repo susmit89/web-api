@@ -60,31 +60,31 @@
 				"row": 7,
 				"column": 0,
 				"type": "heading",
-				"value": ["Where is bloom filters used"]
+				"value": ["Recommendations"]
 			},
 			{
 				"row": 8,
 				"column": 0,
 				"type": "paragraph",
-				"value": [""]
+				"value": ["Proper role-based management should be in place so that unauthorized users could gain access to IT resources and wreak havoc on applications and data."]
 			},
 			{
 				"row": 9,
 				"column": 0,
 				"type": "heading",
-				"value": [""]
+				"value": ["New service access and operational security should be integrated with existing security to make sure different ongoing infrastructure operations are  secure and resilient."]
 			},
 			{
 				"row": 10,
 				"column": 0,
 				"type": "paragraph",
-				"value": [""]
+				"value": ["Easy-to-use self-service marketplace portal that lets users/developers publish, consume, and manage a full range of infrastructure services with service customization."]
 			},
 			{
 				"row": 11,
 				"column": 0,
-				"type": "heading",
-				"value": ["When using source or target or combined data"]
+				"type": "paragraph",
+				"value": ["Implement proper workflows and permission and choose the right tools (not only the single vendor whose partner program for which the vendor signed up) and knows those tools inside and out."]
 			},
 			{
 				"row": 12,
@@ -102,7 +102,7 @@
 				"row": 14,
 				"column": 0,
 				"type": "heading",
-				"value": ["References"]
+				"value": [""]
 			}
 		]
 	}
