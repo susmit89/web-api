@@ -10,7 +10,7 @@
 	"dailyRentalRate": 2.5,
 	"publishDate": "2021-07-05T19:04:28.809Z",
 	"metadata": ["One practical benefit of cloud computing and DevOps is the emergence of self-service provisioning (automated provisioning), whereby tech-savvy users (developers) set up or launch a service or application without the active participation of dedicated IT personnel. The requested services are provided in an accurate configuration and on an accelerated timeline. They are bound by IT's policies but without IT's manual involvement. The main advantage of automated provisioning in the cloud is quite simply the automation, predictability, and speed of preparing a resource for an internal or external customer. Companies are working to create a streamlined process to support the Immutable Server Pattern across back-end products and services. It has zero-downtime rolling releases, with support for different/custom deployment strategies following compliance and security protocols."],
-	"content": {7
+	"content": {
 		"rows": 7,
 		"coumns": 0,
 		"images": {},
@@ -103,15 +103,6 @@
 				"column": 0,
 				"type": "heading",
 				"value": ["References"]
-			},
-			{
-				"row": 15,
-				"column": 0,
-				"type": "references",
-				"value": [{
-					"authors": "Xingyi Yang∗, Xuehai He∗,Yuxiao Liang, Yue Yang",
-					"title": "Transfer Learning or Self-supervised Learning? A Tale of Two Pretraining Paradigms"
-				}]
 			}
 		]
 	}
