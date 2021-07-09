@@ -206,6 +206,18 @@
 		"numberInStock": 6,
 		"dailyRentalRate": 2.5,
 		"publishDate": "2021-07-05T19:04:28.809Z"
+	},
+	{
+		"_id ": "5b21ca3eeb7f6fbcdd479458",
+		"id": "Review-of-Wong-and-Lie-IntelliDroid-A-Targeted-Input-Generator-for-the-Dynamic-Analysis-of-Android-Malware-5b21ca3eeb7f6fbcdd479458",
+		"title": "Review of Wong and Lie, IntelliDroid: A Targeted Input Generator for the Dynamic Analysis of Android Malware",
+		"topic": {
+			"_id": "5b21ca3eeb7f6fbccd471820",
+			"name": "Security"
+		},
+		"numberInStock": 6,
+		"dailyRentalRate": 2.5,
+		"publishDate": "2021-07-08T19:04:28.809Z"
 	}
 
 
