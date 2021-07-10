@@ -6,7 +6,7 @@
 			"_id": "5b21ca3eeb7f6fbccd471818",
 			"name": "Artificial Intelligence"
 		},
-		"numberInStock": 6,
+		"keywords": [],
 		"dailyRentalRate": 2.5,
 		"metadata": ["Even the most futuristic applications of AI, from robotic servants to instant health scans, somehow already seem familiar because they have been endless fodder for pop culture. At the movies, you’ve probably seen artificial intelligence as a menace in The Terminator or 2001: A Space Odyssey; as a near-destroyer of the world in WarGames; as our master in The Matrix; or as a companion (as in Her and in the Stanley Kubrick–Steven Spielberg combination that was called A.I. Artificial Intelligence). But many lesser-known stories, plays, TV shows, and films stand out as well for their perceptiveness about how sophisticated AI will affect us. Here are a few suggestions."],
 
@@ -19,7 +19,7 @@
 			"_id": "5b21ca3eeb7f6fbccd471818",
 			"name": "Artificial Intelligence"
 		},
-		"numberInStock": 5,
+		"keywords": [],
 		"dailyRentalRate": 2.5,
 		"metadata": ["Federated learning (FL) in contrast, is an approach that downloads the current model and computes an updated model at the device itself (ala edge computing) using local data. These locally trained models are then sent from the devices back to the central server where they are aggregated, i.e. averaging weights, and then a single consolidated and improved global model is sent back to the devices."],
 
@@ -33,7 +33,7 @@
 			"_id": "5b21ca3eeb7f6fbccd471814",
 			"name": "Network"
 		},
-		"numberInStock": 5,
+		"keywords": [],
 		"dailyRentalRate": 2.5,
 		"metadata": ["Hardware control in the networking world was relevant to the year 2008 timeframe. It is when the first emergence of software-defined networking (SDN) become noticeable with the OpenFlow protocol. Then it used to be regarded as a technology that falls in the category of distinguished network control mechanism which streamlined automation and policy-based organization of the network resources."],
 
@@ -47,7 +47,7 @@
 			"_id": "5b21ca3eeb7f6fbccd471818",
 			"name": "Artificial Intelligence"
 		},
-		"numberInStock": 6,
+		"keywords": [],
 		"dailyRentalRate": 2.5,
 		"publishDate": "2021-01-07T19:04:28.809Z"
 	},
@@ -59,7 +59,7 @@
 			"_id": "5b21ca3eeb7f6fbccd471818",
 			"name": "Artificial Intelligence"
 		},
-		"numberInStock": 6,
+		"keywords": [],
 		"dailyRentalRate": 2.5,
 		"publishDate": "2021-01-09T19:04:28.809Z"
 	},
@@ -71,7 +71,7 @@
 			"_id": "5b21ca3eeb7f6fbccd485765",
 			"name": "Data Structure"
 		},
-		"numberInStock": 6,
+		"keywords": [],
 		"dailyRentalRate": 2.5,
 		"publishDate": "2021-04-16T19:04:28.809Z"
 	},
@@ -83,7 +83,7 @@
 			"_id": "5b21ca3eeb7f6fbccd485765",
 			"name": "Data Structure"
 		},
-		"numberInStock": 6,
+		"keywords": [],
 		"dailyRentalRate": 2.5,
 		"publishDate": "2021-06-14T19:04:28.809Z"
 	},
@@ -95,7 +95,7 @@
 			"_id": "5b21ca3eeb7f6fbccd486891",
 			"name": "Data Analytics"
 		},
-		"numberInStock": 6,
+		"keywords": [],
 		"dailyRentalRate": 2.5,
 		"publishDate": "2021-06-16T19:04:28.809Z"
 	},
@@ -107,7 +107,7 @@
 			"_id": "5b21ca3eeb7f6fbccd486412",
 			"name": "Algorithms"
 		},
-		"numberInStock": 6,
+		"keywords": [],
 		"dailyRentalRate": 2.5,
 		"publishDate": "2021-06-16T19:04:28.809Z"
 	},
@@ -119,7 +119,7 @@
 			"_id": "5b21ca3eeb7f6fbccd486412",
 			"name": "Algorithms"
 		},
-		"numberInStock": 6,
+		"keywords": [],
 		"dailyRentalRate": 2.5,
 		"publishDate": "2021-06-18T19:04:28.809Z"
 	},
@@ -131,7 +131,7 @@
 			"_id": "5b21ca3eeb7f6fbccd471432",
 			"name": "DevOps"
 		},
-		"numberInStock": 6,
+		"keywords": [],
 		"dailyRentalRate": 2.5,
 		"publishDate": "2021-07-02T19:04:28.809Z"
 	},
@@ -143,7 +143,7 @@
 			"_id": "5b21ca3eeb7f6fbccd471820",
 			"name": "Security"
 		},
-		"numberInStock": 6,
+		"keywords": [],
 		"dailyRentalRate": 2.5,
 		"publishDate": "2021-07-03T19:04:28.809Z"
 	},
@@ -155,7 +155,7 @@
 			"_id": "5b21ca3eeb7f6fbccd471820",
 			"name": "Security"
 		},
-		"numberInStock": 6,
+		"keywords": [],
 		"dailyRentalRate": 2.5,
 		"publishDate": "2021-07-03T19:04:28.809Z"
 	},
@@ -167,7 +167,7 @@
 			"_id": "5b21ca3eeb7f6fbccd471820",
 			"name": "Security"
 		},
-		"numberInStock": 6,
+		"keywords": [],
 		"dailyRentalRate": 2.5,
 		"publishDate": "2021-07-02T19:04:28.809Z"
 	},
@@ -179,7 +179,7 @@
 			"_id": "5b21ca3eeb7f6fbccd486412",
 			"name": "Algorithms"
 		},
-		"numberInStock": 6,
+		"keywords": [],
 		"dailyRentalRate": 2.5,
 		"publishDate": "2021-07-04T07:04:28.809Z"
 	},
@@ -191,7 +191,7 @@
 			"_id": "5b21ca3eeb7f6fbccd471818",
 			"name": "Artificial Intelligence"
 		},
-		"numberInStock": 6,
+		"keywords": [],
 		"dailyRentalRate": 2.5,
 		"publishDate": "2021-07-04T19:04:28.809Z"
 	},
@@ -203,7 +203,7 @@
 			"_id": "5b21ca3eeb7f6fbccd471432",
 			"name": "DevOps"
 		},
-		"numberInStock": 6,
+		"keywords": [],
 		"dailyRentalRate": 2.5,
 		"publishDate": "2021-07-05T19:04:28.809Z"
 	},
@@ -215,7 +215,7 @@
 			"_id": "5b21ca3eeb7f6fbccd471820",
 			"name": "Security"
 		},
-		"numberInStock": 6,
+		"keywords": [],
 		"dailyRentalRate": 2.5,
 		"publishDate": "2021-07-08T19:04:28.809Z"
 	}
