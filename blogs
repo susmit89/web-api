@@ -191,7 +191,7 @@
 			"_id": "5b21ca3eeb7f6fbccd471818",
 			"name": "Artificial Intelligence"
 		},
-		"keywords": [],
+		"keywords": ["Temporal Difference","Monte Carlo","Reinforcement Learning","Machine learning","Dynamic Programming"],
 		"dailyRentalRate": 2.5,
 		"publishDate": "2021-07-04T19:04:28.809Z"
 	},
