@@ -6,7 +6,7 @@
 		"_id": "5b21ca3eeb7f6fbccd471814",
 		"name": "Network"
 	},
-	"numberInStock": 5,
+	"keywords": ["Software Defined Network"],
 	"dailyRentalRate": 2.5,
 	"publishDate": "2020-01-03T19:04:28.809Z",
 	"metadata": ["Hardware control in the networking world was relevant to the year 2008 timeframe. It is when the first emergence of software-defined networking (SDN) become noticeable with the OpenFlow protocol. Then it used to be regarded as a technology that falls in the category of distinguished network control mechanism which streamlined automation and policy-based organization of the network resources."],

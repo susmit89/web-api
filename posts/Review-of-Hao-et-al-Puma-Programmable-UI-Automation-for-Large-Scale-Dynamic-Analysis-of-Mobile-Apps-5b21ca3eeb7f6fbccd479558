@@ -6,7 +6,7 @@
 		"_id": "5b21ca3eeb7f6fbccd471820",
 		"name": "Security"
 	},
-	"numberInStock": 6,
+	"keywords": ["Mobile Security", "Android", "Mobile Apps"],
 	"dailyRentalRate": 2.5,
 	"publishDate": "2021-07-02T19:04:28.809Z",
 	"metadata": ["Mobile app ecosystems have experienced tremendous growth in the last few years. This has triggered research on dynamic analysis of performance, security, and correctness properties of the mobile apps in the ecosystem. Exploration of app execution using automated UI actions has emerged as an important tool for this research. However, existing research has largely developed analysis-specific UI automation techniques, wherein the logic for exploring app execution is intertwined with the logic for analyzing app properties."],

@@ -6,7 +6,7 @@
 		"_id": "5b21ca3eeb7f6fbccd486412",
 		"name": "Algorithms"
 	},
-	"numberInStock": 6,
+	"keywords": ["Recursion", "Memoization", "Dynamic Programming"],
 	"dailyRentalRate": 2.5,
 	"publishDate": "2021-06-18T19:04:28.809Z",
 	"metadata": ["The recursive call to a function is one of the methods to solve a problem that is made of many sub-problems. In recursion, the main idea is to find a base sub-problem and use it recursively. E.g Find factorial of 6.  We calculate 6! by multiplying 6 with 5!. Calculate 5! by multiplying 5 with 4!. So recursively we can solve factorial of n by calculating n * func(n-1). But while running this program the computer still needs to calculate every factorial. To calculate 6! it will still need to calculate 4! even though we already calculated 4! while calculating 5!. This is time-consuming so we use small memory to store previous calculations. Before doing new calculations first we check if the calculation is already in memory. If it is not, we calculate the result from memory. This is called Memoization. This method is pretty popular for solving Dynamic Programming and Backtracking Problems."],

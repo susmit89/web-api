@@ -6,7 +6,7 @@
 		"_id": "5b21ca3eeb7f6fbccd471818",
 		"name": "Artificial Intelligence"
 	},
-	"numberInStock": 6,
+	"keywords": ["Self-Supervised Learning", "Transfer Learning"],
 	"dailyRentalRate": 2.5,
 	"publishDate": "2021-01-07T19:04:28.809Z",
 	"metadata": ["Shortcoming of having a small training dataset is overfitting the model, resulting in degrading performance on the test data. Popular technique is to use the pretrained model which has been trained on a larger dataset. Pretrained model has a good representation network. We initialize the  parameters of our model using a pretrained network and then fine tune it by training on our smaller dataset. Both transfer learning and self-supervised learning uses pre-trained models trained on large source dataset and then fine tuned on target dataset. So which one is preferred?"],

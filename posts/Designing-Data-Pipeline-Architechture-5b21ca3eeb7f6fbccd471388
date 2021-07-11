@@ -6,7 +6,7 @@
 		"_id": "5b21ca3eeb7f6fbccd486891",
 		"name": "Data Analytics"
 	},
-	"numberInStock": 6,
+	"keywords": ["Data Pipeline", "Data Architechture", "System Design"],
 	"dailyRentalRate": 2.5,
 	"publishDate": "2021-06-16T19:04:28.809Z",
 	"metadata": ["Data Pipeline Architecture is an intrinsic part of software engineering. With everyday increase in data, companies are finding innovative ways for data mining. Every type of data is important from user data to server logs. Data analytics provides insights about the behaviour of systems. With increase in data consumption data too has increased. Machine learning and AI are data hungry. No data is more for these models. But the data is not always structured that could be readily consumed. The huge amount of time and resources goes into cleaning. Every unstructured data needs to be processed and stored properly. Many systems are involved in this process. Different types of data require different types of processing and storage. That is why designing data pipeline architecture is different in different companies, different projects or different data types."],

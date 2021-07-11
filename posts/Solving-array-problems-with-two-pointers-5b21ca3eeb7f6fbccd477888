@@ -6,7 +6,7 @@
 		"_id": "5b21ca3eeb7f6fbccd486412",
 		"name": "Algorithms"
 	},
-	"numberInStock": 6,
+	"keywords": ["Arrays", "Sliding Window", "Two Pointers"],
 	"dailyRentalRate": 2.5,
 	"publishDate": "2021-06-16T19:04:28.809Z",
 	"metadata": ["Two-pointers is a pretty common method to solve array problems in linear time with constant space. Two-pointers problems can be solved by traversing an array by either fast and slow pointers or by left and right pointers. Two-pointers problems can be used for sliding window problems. We can adjust window size sliding left or right pointers. Let's see some examples to get a clear idea of two problems."],

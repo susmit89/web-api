@@ -6,7 +6,7 @@
 		"_id": "5b21ca3eeb7f6fbccd471818",
 		"name": "Artificial Intelligence"
 	},
-	"numberInStock": 6,
+	"keywords": ["Policy Adaptation", "Self-Supervised Learning", "Reinforcement Learning"],
 	"dailyRentalRate": 2.5,
 	"publishDate": "2021-01-09T19:04:28.809Z",
 	"metadata": ["A robot can be trained in a simulated environment using reinforcement learning(RL) and is tested in a real environment. A real environment unlike simulation which is a controlled environment has undesirable distractions. Real environment might have states which were never seen in simulations. A model requires a generalization to overcome such distraction. Self-Supervised model has shown significant results in the target environment even though the source environment had some degree of difference. Hansen et al in their paper show how a self-supervised model can adapt to a changing environment without any reward policy. "],

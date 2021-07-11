@@ -6,7 +6,7 @@
 		"_id": "5b21ca3eeb7f6fbccd471820",
 		"name": "Security"
 	},
-	"numberInStock": 6,
+	"keywords": ["Mobile Security", "Android", "Android Malware", "Privacy"],
 	"dailyRentalRate": 2.5,
 	"publishDate": "2021-07-03T19:04:28.809Z",
 	"metadata": ["This paper addresses the problem of smartphone users regarding adequate control over and visibility into how third-party applications use their private data."],

@@ -6,7 +6,7 @@
 		"_id": "5b21ca3eeb7f6fbccd471820",
 		"name": "Security"
 	},
-	"numberInStock": 6,
+	"keywords": ["Mobile Security", "Android", "Mobile Apps"],
 	"dailyRentalRate": 2.5,
 	"publishDate": "2021-07-02T19:04:28.809Z",
 	"metadata": ["Android phones are used in our everyday life and it is very common for apps to disclose sensitive information to any storage, logs, or advertisers that abuse private data. Problems are sensitive data disclosures and leak private data through a dangerously broad set of permission granted by the user i.e. allow the application to read/edit messages, network communication, personal information (read/write contact details, etc), etc. "],
