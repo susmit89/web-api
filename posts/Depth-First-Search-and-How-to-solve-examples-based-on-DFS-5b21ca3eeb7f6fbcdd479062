@@ -1,0 +1,118 @@
+{
+	"_id ": "5b21ca3eeb7f6fbcdd479062",
+	"id": "Depth-First-Search-and-How-to-solve-examples-based-on-DFS-5b21ca3eeb7f6fbcdd479062",
+	"title": "Depth First Search and How to solve examples based on DFS",
+	"topic": {
+	    "_id": "5b21ca3eeb7f6fbccd486412",
+		"name": "Algorithms"
+	},
+	"keywords": ["Graph Search", "Depth First Search", "Stack", "Path Finding"],
+	"dailyRentalRate": 2.5,
+	"publishDate": "2021-07-12T19:04:28.809Z",
+	"metadata": ["Depth First Search (DFS) is a search algorithm mostly used in graphs and binary tree data structures. It is useful to solve cycle detection in the graph, topological sort, and pathfinding problems. DFS can be implemented in a recursive and nonrecursive fashion using a stack."],
+	"content": {
+		"rows": 7,
+		"coumns": 0,
+		"images": {},
+		"text": [{
+				"row": 0,
+				"column": 0,
+				"type": "heading",
+				"value": ["How DFS Works?"]
+			},
+			{
+				"row": 1,
+				"column": 0,
+				"type": "paragraph",
+				"value": [""]
+			},
+			{
+				"row": 2,
+				"column": 0,
+				"type": "paragraph",
+				"value": [""]
+			},
+			{
+				"row": 3,
+				"column": 0,
+				"type": "paragraph",
+				"value": [""]
+			},
+			{
+				"row": 4,
+				"column": 0,
+				"type": "paragraph",
+				"value": [""]
+			},
+			{
+				"row": 5,
+				"column": 0,
+				"type": "heading",
+				"value": ["How to use bloom filters"]
+			},
+			{
+				"row": 6,
+				"column": 0,
+				"type": "paragraph",
+				"value": [""]
+			},
+			{
+				"row": 7,
+				"column": 0,
+				"type": "heading",
+				"value": ["Where is bloom filters used"]
+			},
+			{
+				"row": 8,
+				"column": 0,
+				"type": "paragraph",
+				"value": [""]
+			},
+			{
+				"row": 9,
+				"column": 0,
+				"type": "heading",
+				"value": [""]
+			},
+			{
+				"row": 10,
+				"column": 0,
+				"type": "paragraph",
+				"value": [""]
+			},
+			{
+				"row": 11,
+				"column": 0,
+				"type": "heading",
+				"value": ["When using source or target or combined data"]
+			},
+			{
+				"row": 12,
+				"column": 0,
+				"type": "paragraph",
+				"value": [""]
+			},
+			{
+				"row": 13,
+				"column": 0,
+				"type": "paragraph",
+				"value": [""]
+			},
+			{
+				"row": 14,
+				"column": 0,
+				"type": "heading",
+				"value": ["References"]
+			},
+			{
+				"row": 15,
+				"column": 0,
+				"type": "references",
+				"value": [{
+					"authors": "Xingyi Yang∗, Xuehai He∗,Yuxiao Liang, Yue Yang",
+					"title": "Transfer Learning or Self-supervised Learning? A Tale of Two Pretraining Paradigms"
+				}]
+			}
+		]
+	}
+}

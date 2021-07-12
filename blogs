@@ -218,6 +218,18 @@
 		"keywords": ["Mobile Security", "Android", "Android Malware"],
 		"dailyRentalRate": 2.5,
 		"publishDate": "2021-07-08T19:04:28.809Z"
+	},
+	{
+		"_id ": "5b21ca3eeb7f6fbcdd479062",
+		"id": "Depth-First-Search-and-How-to-solve-examples-based-on-DFS-5b21ca3eeb7f6fbcdd479062",
+		"title": "Depth First Search and How to solve examples based on DFS",
+		"topic": {
+			"_id": "5b21ca3eeb7f6fbccd486412",
+			"name": "Algorithms"
+		},
+		"keywords": ["Graph Search", "Depth First Search", "Stack", "Path Finding"],
+		"dailyRentalRate": 2.5,
+		"publishDate": "2021-07-12T19:04:28.809Z"
 	}
 
 
