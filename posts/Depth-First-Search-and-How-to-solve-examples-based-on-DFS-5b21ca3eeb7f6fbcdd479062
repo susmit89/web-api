@@ -3,7 +3,7 @@
 	"id": "Depth-First-Search-and-How-to-solve-examples-based-on-DFS-5b21ca3eeb7f6fbcdd479062",
 	"title": "Depth First Search and How to solve examples based on DFS",
 	"topic": {
-	    "_id": "5b21ca3eeb7f6fbccd486412",
+		"_id": "5b21ca3eeb7f6fbccd486412",
 		"name": "Algorithms"
 	},
 	"keywords": ["Graph Search", "Depth First Search", "Stack", "Path Finding"],
@@ -24,15 +24,14 @@
 				"row": 1,
 				"column": 0,
 				"type": "list",
-				"value": ["In a given graph or tree, DFS starts at the root or start node. It explores the node by expanding its children.", "It visits the first child node and expands and explores its children. It will keep exploring until it reaches the last leaf node.", "After it has explored a tree under the first child then it explores its sibling nodes.","The algorithm ends when all trees under all siblings","The algorithm can also terminate early if we found goal node","For Example, In the graph below we start at 0 then expand children 1,2, and 3. We first visit child 1 first and expand the tree under it.  We see it has children 4 and 5. We visit 4 first. Since 4 doesn’t have any children we visit its sibling 5. Since 5 doesn't have any children and parent of 5 i.e 1 don't have any more children we move to visit its sibling 2. We explore 2 children which is 6 only. Since 2 don’t have any more children we move to 3. 3 has 7 as a child we explore that. Now since 7 don't have children we move back to parent 3. Also all of 1 sibling we already explored we move back to 1. The algorithm terminates here. So the path we traverse is 0->1->5->4->2->6->3->7
-"]
+				"value": ["In a given graph or tree, DFS starts at the root or start node. It explores the node by expanding its children.", "It visits the first child node and expands and explores its children. It will keep exploring until it reaches the last leaf node.", "After it has explored a tree under the first child then it explores its sibling nodes.", "The algorithm ends when all trees under all siblings", "The algorithm can also terminate early if we found goal node", "For Example, In the graph below we start at 0 then expand children 1,2, and 3. We first visit child 1 first and expand the tree under it.  We see it has children 4 and 5. We visit 4 first. Since 4 doesn’t have any children we visit its sibling 5. Since 5 doesn't have any children and parent of 5 i.e 1 don't have any more children we move to visit its sibling 2. We explore 2 children which is 6 only. Since 2 don’t have any more children we move to 3. 3 has 7 as a child we explore that. Now since 7 don't have children we move back to parent 3. Also all of 1 sibling we already explored we move back to 1. The algorithm terminates here. So the path we traverse is 0->1->5->4->2->6->3->7"]
 			},
 			{
 				"row": 2,
 				"column": 0,
 				"type": "image",
 				"caption": ["DFS Graph Search"],
-                "reference": "images/DFS-graph-search-5b21ca3eeb7f6fbcdd479062.jpg"
+				"reference": "images/DFS-graph-search-5b21ca3eeb7f6fbcdd479062.jpg"
 			},
 			{
 				"row": 3,
