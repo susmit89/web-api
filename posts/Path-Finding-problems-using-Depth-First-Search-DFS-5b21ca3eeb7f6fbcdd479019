@@ -9,7 +9,7 @@
 	"keywords": ["Graph Search", "Depth First Search", "Stack", "Path Finding"],
 	"dailyRentalRate": 2.5,
 	"publishDate": "2021-07-12T19:04:28.809Z",
-	"metadata": ["Bloom filter (BF), a space- and time-efficient probabilistic data structure introduced by Burton Bloom in 1970. They support fast element insertion and deletion."],
+	"metadata": ["Pathfinding problems have many applications, from computer games, network routing to AI robots. If we want to explore unknown graphs and want to gather more information, DFS is a good choice. DFS is the most simple path exploration of all algorithms. It is appropriate to use during space restriction in complex state representation and acyclic graphs."],
 	"content": {
 		"rows": 7,
 		"coumns": 0,
