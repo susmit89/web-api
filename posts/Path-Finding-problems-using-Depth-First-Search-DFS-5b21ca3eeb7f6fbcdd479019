@@ -100,7 +100,7 @@
 				"row": 13,
 				"column": 0,
 				"type": "list",
-				"value": [""]
+				"value": ["Here each node is connected to itself and other nodes. We can visualize the grid in the form of a graph as shown in the above figure.","This problem can be solved in similar 3 steps as the above problem with little modifications.","We not only check visited nodes. But we also need to check we stay in the grid.","Since we have asked for maximum gold we will start the path with sum 0 and keep adding new path node values to the sum.","Every time we move top, left, right, the bottom cell we check if the node is unvisited and call DFS.","We want to choose only nodes in the path which give us the maximum sum. So we take a maximum of neighbors and return that value."]
 			},
 			{
 				"row": 14,
