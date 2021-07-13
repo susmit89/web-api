@@ -107,6 +107,56 @@
 				"column": 0,
 				"type": "code",
 				"value": ["\ndef getMaximumGold(grid):\n    def dfs(i, j, sum, visited):\n        #return if check i and j are underflow or overflow or (i,j) already visited\n        if i < 0 or i >= m or j < 0 or j >= n or not grid[i][j] or (i, j) in visited:\n            return sum \n        visited.add((i, j))\n        sum += grid[i][j] #add to current sum\n        mx = 0\n        for x, y in ((i, j + 1), (i , j - 1), (i + 1, j), (i - 1, j)): #check top, left, right, bottom neighbours\n            mx = max(dfs(x, y, sum, visited), mx) #only choose maximum value\n        visited.discard((i, j)) #remove from visited\n        return mx #return total path value \n\n    m, n = len(grid), len(grid[0])\n    maximum_gold = float('-inf')\n    for i in range(m):\n        for j in range(n):\n            #check with every (i,j) node as start node  \n            maximum_gold = max(maximum_gold, dfs(i, j, 0, set())) \n    return maximum_gold\n"]
+			},
+			{
+				"row": 7,
+				"column": 0,
+				"type": "heading",
+				"value": ["Flood Fill"]
+			},
+			{
+				"row": 8,
+				"column": 0,
+				"type": "link",
+				"title": ["733. Flood Fill"],
+				"link": "https://leetcode.com/problems/flood-fill/"
+			},
+			{
+				"row": 9,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["An image is represented by an m x n integer grid image where image[i][j] represents the pixel value of the image. You are also given three integers sr, sc, and newColor. You should perform a flood fill on the image starting from the pixel image[sr][sc]. To perform a flood fill, consider the starting pixel, plus any pixels connected 4-directionally to the starting pixel of the same color as the starting pixel, plus any pixels connected 4-directionally to those pixels (also with the same color), and so on. Replace the color of all of the aforementioned pixels with newColor. Return the modified image after performing the flood fill."]
+			},
+			{
+				"row": 10,
+				"column": 0,
+				"type": "code",
+				"value": ["\nInput: image = [[1,1,1],[1,1,0],[1,0,1]], sr = 1, sc = 1, newColor = 2\nOutput: [[2,2,2],[2,2,0],[2,0,1]]\nExplanation: From the center of the image with position (sr, sc) = (1, 1) (i.e., the red pixel), all pixels connected by a path of the same color as the starting pixel (i.e., the blue pixels) are colored with the new color.\nNote the bottom corner is not colored 2, because it is not 4-directionally connected to the starting pixel.\n"]
+			},
+			{
+				"row": 11,
+				"column": 0,
+				"type": "image",
+				"caption": ["Flood Fill"],
+				"reference":"images/flood1-grid-5b21ca3eeb7f6fbcdd479019.jpg"
+			},
+			{
+				"row": 12,
+				"column": 0,
+				"type": "subheading",
+				"value": ["Intuition"]
+			},
+			{
+				"row": 13,
+				"column": 0,
+				"type": "list",
+				"value": ["Even this problem is similar to the above problems. Here we don't require a visited list as we check that value of the cell. If the value of the cell is already a new color that means we already visited, we return."]
+			},
+			{
+				"row": 14,
+				"column": 0,
+				"type": "code",
+				"value": ["\ndef floodFill(image, sr, sc, newColor):\n    def dfs(i,j):\n        #if going out grid return \n        if i < 0 or i >= row or j < 0 or j >= col:\n            return\n        #color is not same as orginal color or already colored with new color\n        if image[i][j] != color or image[i][j] == newColor:\n            return\n            \n        image[i][j] = newColor\n            \n        for x,y in ((i, j + 1), (i , j - 1), (i + 1, j), (i - 1, j)):  \n            dfs(x,y)\n            \n        row = len(image)\n        col = len(image[0])\n        color = image[sr][sc]\n        dfs(sr,sc)\n        return image\n"]
 			}
 		]
 	}
