@@ -120,8 +120,9 @@
 			{
 				"row": 17,
 				"column": 0,
-				"type": "subheading",
-				"value": ["Optimal"]
+				"type": "image",
+				"caption": ["cycle in graph"],
+				"reference": "images/DFS-cycle-graph-search-5b21ca3eeb7f6fbcdd479062.jpg"
 			},
 			{
 				"row": 18,
