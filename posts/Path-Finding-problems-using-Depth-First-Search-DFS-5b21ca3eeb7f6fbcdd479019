@@ -150,7 +150,7 @@
 				"row": 13,
 				"column": 0,
 				"type": "list",
-				"value": ["Even this problem is similar to the above problems. Here we don't require a visited list as we check that value of the cell. If the value of the cell is already a new color that means we already visited, we return."]
+				"value": ["Even this problem is similar to the above problems.","Here we don't require a visited list as we check that value of the cell. ","If the value of the cell is already a new color that means we already visited, we return."]
 			},
 			{
 				"row": 14,
