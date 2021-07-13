@@ -79,19 +79,19 @@
 				"row": 10,
 				"column": 0,
 				"type": "paragraph",
-				"value": [""]
+				"value": ["All recursive problems can be solved with iteration by using a stack.", "We use the stack in DFS to store nodes we want to visit later." ,"When we visit nodes we push all its children to stacks and then pop the first children out.", "We mark that child visited and push all its non-visited children to stack.","We do this until the stack is empty."]
 			},
 			{
 				"row": 11,
 				"column": 0,
-				"type": "heading",
-				"value": ["When using source or target or combined data"]
+				"type": "code",
+				"value": ["\nimport collections\ndef traverse(nodes, n):\n    edges = collections.defaultdict(set)\n    for u, v in nodes:\n        edges[u].add(v)\n        edges[v].add(u)\n        \n    visited = [False for _ in range(n)]\n    \n    stack = [] #Stack to store non visited node to explore later\n    visited[0] = True\n    stack.append(0)\n    \n    while stack:\n        v = stack.pop()\n        \n        print(v)\n        \n        for u in edges[v]:\n            if not visited[u]:\n                visited[u] = True\n                stack.append(u)\n"]
 			},
 			{
 				"row": 12,
 				"column": 0,
-				"type": "paragraph",
-				"value": [""]
+				"type": "heading",
+				"value": ["Analysis of DFS"]
 			},
 			{
 				"row": 13,
