@@ -109,7 +109,7 @@
 				"row": 15,
 				"column": 0,
 				"type": "subheading",
-				"value": ["Completeness"]
+				"value": ["Is DFS Complete?"]
 			},
 			{
 				"row": 16,
@@ -127,8 +127,21 @@
 			{
 				"row": 18,
 				"column": 0,
+				"type": "subheading",
+				"value": ["Is DFS Optimal?"]
+			},
+			{
+				"row": 18,
+				"column": 0,
 				"type": "list",
-				"value": ["Completeness"]
+				"value": ["In a graph, if we have multiple goal nodes, the optimal solution will be the shortest path to any of the nodes.", "DFS will stop as soon as it finds the goal node. But it may not be the best goal node.","In the example below shaded nodes are goal nodes. DFS will find a goal node connected to 16.  This is not the best node. As there is another node closer to 1.","So DFS is not optimal. DFS is appropriate when the goal is node is not shallow."]
+			},
+			{
+				"row": 19,
+				"column": 0,
+				"type": "image",
+				"value": ["Optimal"],
+				"reference": "images/dfs-optimal-path-5b21ca3eeb7f6fbcdd479062.png"
 			}
 		]
 	}
