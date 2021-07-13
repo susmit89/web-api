@@ -93,13 +93,13 @@
 			{
 				"row": 12,
 				"column": 0,
-				"type": "paragraph",
-				"value": [""]
+				"type": "subheading",
+				"value": ["Intuition"]
 			},
 			{
 				"row": 13,
 				"column": 0,
-				"type": "paragraph",
+				"type": "list",
 				"value": [""]
 			},
 			{
@@ -107,15 +107,6 @@
 				"column": 0,
 				"type": "code",
 				"value": ["\ndef getMaximumGold(grid):\n    def dfs(i, j, sum, visited):\n        #return if check i and j are underflow or overflow or (i,j) already visited\n        if i < 0 or i >= m or j < 0 or j >= n or not grid[i][j] or (i, j) in visited:\n            return sum \n        visited.add((i, j))\n        sum += grid[i][j] #add to current sum\n        mx = 0\n        for x, y in ((i, j + 1), (i , j - 1), (i + 1, j), (i - 1, j)): #check top, left, right, bottom neighbours\n            mx = max(dfs(x, y, sum, visited), mx) #only choose maximum value\n        visited.discard((i, j)) #remove from visited\n        return mx #return total path value \n\n    m, n = len(grid), len(grid[0])\n    maximum_gold = float('-inf')\n    for i in range(m):\n        for j in range(n):\n            #check with every (i,j) node as start node  \n            maximum_gold = max(maximum_gold, dfs(i, j, 0, set())) \n    return maximum_gold\n"]
-			},
-			{
-				"row": 15,
-				"column": 0,
-				"type": "references",
-				"value": [{
-					"authors": "Xingyi Yang∗, Xuehai He∗,Yuxiao Liang, Yue Yang",
-					"title": "Transfer Learning or Self-supervised Learning? A Tale of Two Pretraining Paradigms"
-				}]
 			}
 		]
 	}
