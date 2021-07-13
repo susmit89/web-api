@@ -79,7 +79,7 @@
 				"row": 10,
 				"column": 0,
 				"type": "list",
-				"value": ["All recursive problems can be solved with iteration by using a stack.", "We use the stack in DFS to store nodes we want to visit later." ,"When we visit nodes we push all its children to stacks and then pop the first children out.", "We mark that child visited and push all its non-visited children to stack.","We do this until the stack is empty."]
+				"value": ["All recursive problems can be solved with iteration by using a stack.", "We use the stack in DFS to store nodes we want to visit later." ,"When we visit nodes we push all its children to stacks and then pop the first child out.", "We mark that child visited and push all its non-visited children to stack.","We do this until the stack is empty."]
 			},
 			{
 				"row": 11,
