@@ -37,25 +37,25 @@
 				"row": 3,
 				"column": 0,
 				"type": "paragraph",
-				"value": [""]
+				"value": ["Represent Problem as Graph"]
 			},
 			{
 				"row": 4,
 				"column": 0,
-				"type": "paragraph",
-				"value": [""]
+				"type": "list",
+				"value": ["Many times in a problem graph is not given. Instead, a multi-array is given which has a relation between 2 nodes.", "For the above example it can be presented as [[0,1],[0,2],[0,3],[1,4],[1,5],[2,6][3,7]]. We can represent this in the form of a dictionary.", "The graph can be directed or undirected."]
 			},
 			{
 				"row": 5,
 				"column": 0,
-				"type": "heading",
-				"value": ["How to use bloom filters"]
+				"type": "code",
+				"value": ["\nedges = collections.defaultdict(set) \nfor  u, v in nodes:\n        edges[u].add(v)\n        edges[v].add(u) #Use this only if it's undirected graph\n"]
 			},
 			{
 				"row": 6,
 				"column": 0,
-				"type": "paragraph",
-				"value": [""]
+				"type": "heading",
+				"value": ["Recursive DFS"]
 			},
 			{
 				"row": 7,
