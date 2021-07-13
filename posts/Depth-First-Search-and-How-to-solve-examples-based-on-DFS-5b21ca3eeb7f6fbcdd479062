@@ -115,7 +115,7 @@
 				"row": 16,
 				"column": 0,
 				"type": "list",
-				"value": ["Completeness"]
+				"value": ["Let's imagine a graph is directed and it has a cycle as shown in the example below. We can’t say for sure DFS will stop.", "We are required to detect the cycle and additional conditions to get out of the cycle.","For large graphs, it might get complex if there are many and longer cycles. DFS is not good if graphs have cycles.","DFS is complete for the finite acyclic graph."]
 			},
 			{
 				"row": 17,
