@@ -103,7 +103,7 @@
 				"row": 14,
 				"column": 0,
 				"type": "list",
-				"value": ["References"]
+				"value": ["We traverse through all nodes. Therefore time complexity is O(N), Space complexity is O(N)","We can also represent complexity in terms of branching factors. If every node has b branch and m path length. Then time complexity is O(b^m). Since we store the entire tree of a child at a time. Space complexity is O(b*m)"]
 			},
 			{
 				"row": 15,
@@ -114,7 +114,7 @@
 			{
 				"row": 16,
 				"column": 0,
-				"type": "subheading",
+				"type": "list",
 				"value": ["Completeness"]
 			},
 			{
@@ -126,7 +126,7 @@
 			{
 				"row": 18,
 				"column": 0,
-				"type": "paragraph",
+				"type": "list",
 				"value": ["Completeness"]
 			}
 		]
