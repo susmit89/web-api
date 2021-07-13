@@ -86,8 +86,9 @@
 			{
 				"row": 11,
 				"column": 0,
-				"type": "heading",
-				"value": ["When using source or target or combined data"]
+				"type": "image",
+				"caption": ["Represent above problem in graph. Red is maximum path."],
+				"reference":"images/path-finding-gold-5b21ca3eeb7f6fbcdd479019.jpg"
 			},
 			{
 				"row": 12,
