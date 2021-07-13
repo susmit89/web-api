@@ -43,14 +43,14 @@
 			{
 				"row": 4,
 				"column": 0,
-				"type": "paragraph",
-				"value": [""]
+				"type": "subheading",
+				"value": ["Intuition"]
 			},
 			{
 				"row": 5,
 				"column": 0,
-				"type": "heading",
-				"value": ["How to use bloom filters"]
+				"type": "list",
+				"value": ["In the above example, we need to find all paths from 0 node to n-1 node.","We will use recursive DFS.","Initialize the visited list to store visited nodes so we don't visit the same node twice.","Initialize the result list to store paths.","We follow 3 steps: mark node visited, check if the node is the destination, and explore its unvisited neighbors.","Our DFS algorithm will first start at node 0 and the destination is 3.","Below is the python code"]
 			},
 			{
 				"row": 6,
