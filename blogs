@@ -221,8 +221,8 @@
 	},
 	{
 		"_id ": "5b21ca3eeb7f6fbcdd479062",
-		"id": "Depth-First-Search-and-How-to-solve-examples-based-on-DFS-5b21ca3eeb7f6fbcdd479062",
-		"title": "Depth First Search and How to solve examples based on DFS",
+		"id": "Recurisve-and-Iterative-Depth-First-Search-and-Analysis-of-DFS-5b21ca3eeb7f6fbcdd479062",
+		"title": "Recurisve and Iterative Depth First Search and Analysis of DFS",
 		"topic": {
 			"_id": "5b21ca3eeb7f6fbccd486412",
 			"name": "Algorithms"
