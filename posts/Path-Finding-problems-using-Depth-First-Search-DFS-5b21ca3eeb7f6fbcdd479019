@@ -37,7 +37,7 @@
 				"row": 3,
 				"column": 0,
 				"type": "image",
-				"value": ["Input: graph = [[1,2],[3],[3],[]]"],
+				"caption": ["Input: graph = [[1,2],[3],[3],[]]"],
 				"reference": "images/all_1-5b21ca3eeb7f6fbcdd479019.jpg"
 			},
 			{
