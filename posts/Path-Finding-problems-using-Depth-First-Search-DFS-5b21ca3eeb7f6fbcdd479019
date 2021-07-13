@@ -55,8 +55,8 @@
 			{
 				"row": 6,
 				"column": 0,
-				"type": "paragraph",
-				"value": [""]
+				"type": "code",
+				"value": ["\ndef allPathsSourceTarget(graph):\n    def dfs(visited, vertex, destination):\n        visited.append(vertex) #Mark node visted\n        if destination == vertex: #check if we reached destination \n                \n            res.append(visited[:]) #copy nodes from visited to result\n            \n        for u in graph[vertex]: \n            if u not in visited: #explore its unvisited neighbours\n                dfs(visited, u, destination)\n        visited.remove(vertex) \n    visited = [] # to store visited node\n    res = [] # to store the result\n    dfs(visited, 0, len(graph)-1)\n    return res #res = [[0,1,3],[0,2,3]]"]
 			},
 			{
 				"row": 7,
