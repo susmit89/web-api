@@ -221,8 +221,8 @@
 	},
 	{
 		"_id ": "5b21ca3eeb7f6fbcdd479062",
-		"id": "Recurisve-and-Iterative-Depth-First-Search-and-Analysis-of-DFS-5b21ca3eeb7f6fbcdd479062",
-		"title": "Recurisve and Iterative Depth First Search and Analysis of DFS",
+		"id": "Recursive-and-Iterative-Depth-First-Search-and-Analysis-of-DFS-5b21ca3eeb7f6fbcdd479062",
+		"title": "Recursive and Iterative Depth First Search and Analysis of DFS",
 		"topic": {
 			"_id": "5b21ca3eeb7f6fbccd486412",
 			"name": "Algorithms"
