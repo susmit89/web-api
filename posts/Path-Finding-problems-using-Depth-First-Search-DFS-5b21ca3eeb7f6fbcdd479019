@@ -156,7 +156,7 @@
 				"row": 14,
 				"column": 0,
 				"type": "code",
-				"value": ["\ndef floodFill(image, sr, sc, newColor):\n    def dfs(i,j):\n        #if going out grid return \n        if i < 0 or i >= row or j < 0 or j >= col:\n            return\n        #color is not same as orginal color or already colored with new color\n        if image[i][j] != color or image[i][j] == newColor:\n            return\n            \n        image[i][j] = newColor\n            \n        for x,y in ((i, j + 1), (i , j - 1), (i + 1, j), (i - 1, j)):  \n            dfs(x,y)\n            \n        row = len(image)\n        col = len(image[0])\n        color = image[sr][sc]\n        dfs(sr,sc)\n        return image\n"]
+				"value": ["\ndef floodFill(image, sr, sc, newColor):\n    def dfs(i,j):\n        #if going out grid return \n        if i < 0 or i >= row or j < 0 or j >= col:\n            return\n        #color is not same as orginal color or already colored with new color\n        if image[i][j] != color or image[i][j] == newColor:\n            return\n            \n        image[i][j] = newColor\n            \n        for x,y in ((i, j + 1), (i , j - 1), (i + 1, j), (i - 1, j)):  \n            dfs(x,y)\n            \n    row = len(image)\n    col = len(image[0])\n    color = image[sr][sc]\n    dfs(sr,sc)\n    return image\n"]
 			}
 		]
 	}
