@@ -1,7 +1,7 @@
 {
 	"_id ": "5b21ca3eeb7f6fbcdd479062",
-	"id": "Depth-First-Search-and-Recursive-Iterative-and-Analysis-of-DFS-5b21ca3eeb7f6fbcdd479062",
-	"title": "Depth First Search and Recursive, Iterative and Analysis of DFS",
+	"id": "Depth-First-Search-and-How-to-solve-examples-based-on-DFS-5b21ca3eeb7f6fbcdd479458",
+	"title": "Depth First Search and How to solve examples based on DFS",
 	"topic": {
 		"_id": "5b21ca3eeb7f6fbccd486412",
 		"name": "Algorithms"
@@ -78,7 +78,7 @@
 			{
 				"row": 10,
 				"column": 0,
-				"type": "paragraph",
+				"type": "list",
 				"value": ["All recursive problems can be solved with iteration by using a stack.", "We use the stack in DFS to store nodes we want to visit later." ,"When we visit nodes we push all its children to stacks and then pop the first children out.", "We mark that child visited and push all its non-visited children to stack.","We do this until the stack is empty."]
 			},
 			{
@@ -96,23 +96,38 @@
 			{
 				"row": 13,
 				"column": 0,
-				"type": "paragraph",
-				"value": [""]
+				"type": "subheading",
+				"value": ["Time and Space complexity"]
 			},
 			{
 				"row": 14,
 				"column": 0,
-				"type": "heading",
+				"type": "list",
 				"value": ["References"]
 			},
 			{
 				"row": 15,
 				"column": 0,
-				"type": "references",
-				"value": [{
-					"authors": "Xingyi Yang∗, Xuehai He∗,Yuxiao Liang, Yue Yang",
-					"title": "Transfer Learning or Self-supervised Learning? A Tale of Two Pretraining Paradigms"
-				}]
+				"type": "subheading",
+				"value": ["Completeness"]
+			},
+			{
+				"row": 16,
+				"column": 0,
+				"type": "subheading",
+				"value": ["Completeness"]
+			},
+			{
+				"row": 17,
+				"column": 0,
+				"type": "subheading",
+				"value": ["Optimal"]
+			},
+			{
+				"row": 18,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["Completeness"]
 			}
 		]
 	}
