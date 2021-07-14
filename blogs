@@ -254,6 +254,18 @@
 		"keywords": ["Graph Search", "Breadth First Search", "Queue", "Path Finding", "Shortest Path"],
 		"dailyRentalRate": 2.5,
 		"publishDate": "2021-07-14T09:04:28.809Z"
+	},
+	{
+		"_id ": "5b21ca3bbb7f6fbcdd479019",
+		"id": "Course-Schedule-using-Topological-Sort-5b21ca3bbb7f6fbcdd479019",
+		"title": "Course Schedule using Topological Sort",
+		"topic": {
+			"_id": "5b21ca3eeb7f6fbccd486412",
+			"name": "Algorithms"
+		},
+		"keywords": ["Graph Search", "Depth First Search", "Stack", "Topological Sort", "Cycle Detection"],
+		"dailyRentalRate": 2.5,
+		"publishDate": "2021-07-14T09:04:28.809Z"
 	}
 
 
