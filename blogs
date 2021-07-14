@@ -242,6 +242,18 @@
 		"keywords": ["Graph Search", "Depth First Search", "Stack", "Path Finding"],
 		"dailyRentalRate": 2.5,
 		"publishDate": "2021-07-12T19:04:28.809Z"
+	},
+	{
+		"_id ": "5b21ca3eeb7f6fbcdd486519",
+		"id": "Breadth-First-Search-and-Analysis-of-BFS-5b21ca3eeb7f6fbcdd486519",
+		"title": "Breadth First Search and Analysis of BFS",
+		"topic": {
+			"_id": "5b21ca3eeb7f6fbccd486412",
+			"name": "Algorithms"
+		},
+		"keywords": ["Graph Search", "Breadth First Search", "Queue", "Path Finding", "Shortest Path"],
+		"dailyRentalRate": 2.5,
+		"publishDate": "2021-07-14T09:04:28.809Z"
 	}
 
 

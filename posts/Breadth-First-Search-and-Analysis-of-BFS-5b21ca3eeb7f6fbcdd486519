@@ -1,0 +1,112 @@
+{
+	"_id ": "5b21ca3eeb7f6fbcdd486519",
+	"id": "Breadth-First-Search-and-Analysis-of-BFS-5b21ca3eeb7f6fbcdd486519",
+	"title": "Breadth First Search and Analysis of BFS",
+	"topic": {
+		"_id": "5b21ca3eeb7f6fbccd486412",
+	    "name": "Algorithms"
+	},
+	"keywords": ["Graph Search", "Breadth First Search", "Queue", "Path Finding", "Shortest Path"],
+	"dailyRentalRate": 2.5,
+	"publishDate": "2021-07-14T09:04:28.809Z",
+	"metadata": ["Breadth-First-Search (BFS)  is a graph search algorithm that uses a queue data structure. Like Depth-First-Search (DFS) is used in pathfinding, BFS is used to find the shortest path. It is the basis for many graph-based algorithms like Dijkstra. The most common applications for BFS are search engines, web crawlers, peer networks, etc."],
+	"content": {
+		"rows": 7,
+		"coumns": 0,
+		"images": {},
+		"text": [{
+				"row": 0,
+				"column": 0,
+				"type": "heading",
+				"value": ["How does BFS work?"]
+			},
+			{
+				"row": 1,
+				"column": 0,
+				"type": "list",
+				"value": ["In a given graph or tree, BFS starts at the root or start node. It traverses the nodes level by level.","It adds the children to the queue","It then pops out the node from the queue in the First-In-First-Out manner and marks it visited","Further, it explores unvisited connected nodes and pushes all the nodes to the queue to be visited later.","The algorithm ends when all nodes are visited or the queue is empty or we found a goal node.","For Example, In the graph below we start at 0. We add 0 to the queue first.","Node 0  is popped out and marked visited. We then add nodes connected to 0 to the queue which are 1, 2, and 3.","Node 1 is popped out and marked visited. Nodes 4 and 5 are added to the queue.", "Node 2  is then popped out and marked visited. Node 6 is added to the queue","Node 3 is popped out and marked visited. Node 7 is added to the queue.","Node 4 is popped out and marked visited. Since it has no unvisited nodes connected. We traverse to Node 5. It is visited. It too has no unvisited connected nodes. We do the same for nodes 6 and 7. So we traverse is 0->1->2->3->4->5->6->7."]
+			},
+			{
+				"row": 2,
+				"column": 0,
+				"type": "image",
+				"caption": ["BFS Graph Search"],
+				"reference": "images/DFS-graph-search-5b21ca3eeb7f6fbcdd479062.jpg"
+			},
+			{
+				"row": 3,
+				"column": 0,
+				"type": "subheading",
+				"value": ["Template for BFS"]
+			},
+			{
+				"row": 4,
+				"column": 0,
+				"type": "list",
+				"value": ["Many times instead of a graph a multi-array is given. We used that array and represented it in the form of a dictionary or hashmap.","If following python code we use queue and insert start node and mark start node visited.","Then we run a loop to pop the node in the front queue, mark it visited then add its unvisited connected nodes. We terminate when the queue is empty.","Termination conditions may vary based on application."]
+			},
+			{
+				"row": 5,
+				"column": 0,
+				"type": "code",
+				"value": ["import collections \ndef BFS(nodes, n):\n    edges = collections.defaultdict(set)\n    for u, v in nodes:\n        edges[u].add(v)\n        edges[v].add(u) #node required in directed graph\n    \n    visited = [False for _ in range(n)]\n    \n    queue = collections.deque() \n    \n    visited[0] = True\n    \n    queue.append(0)\n    \n    while queue:\n        v = queue.popleft() #pop front element from queue\n        \n        print(v)\n        \n        for u in edges[v]:\n            #Explore unvisited connected nodes to v\n            if not visited[u]: \n                visited[u] = True\n                queue.append(u)"]
+            },
+			{
+				"row": 6,
+				"column": 0,
+				"type": "heading",
+				"value": ["Analysis of BFS"]
+			},
+			{
+				"row": 7,
+				"column": 0,
+				"type": "subheading",
+				"value": ["Time and Space complexity"]
+			},
+			{
+				"row": 8,
+				"column": 0,
+				"type": "list",
+				"value": ["We traverse through all nodes. Therefore time complexity is O(N), Space complexity is O(N)","We can also represent complexity in terms of branching factors. If every node has b branch and m path length. Then time complexity is O(b^m). If we are at a leaf node we have to store the entire graph. Therefore, Space complexity is O(b^m).","It's less space-efficient than DFS. If there are too many branches DFS is preferred."]
+			},
+			{
+				"row": 9,
+				"column": 0,
+				"type": "subheading",
+				"value": ["Is BFS Complete?"]
+			},
+			{
+				"row": 10,
+				"column": 0,
+				"type": "list",
+				"value": ["Let's imagine a graph is directed and it has a cycle as shown in the example below.", "We traverse the graph 0->1->2->3->4->5->7->6", "Even if the graph has a cycle we were able to traverse all nodes. Therefore BFS is complete.", "BFS and DFS both can be used to detect cycles in undirected graphs. But only DFS is used for cycle detection in directed graphs."]
+			},
+			{
+				"row": 11,
+				"column": 0,
+				"type": "image",
+				"caption": ["cycle in graph"],
+				"reference": "images/DFS-cycle-graph-search-5b21ca3eeb7f6fbcdd479062.jpg"
+			},
+			{
+				"row": 12,
+				"column": 0,
+				"type": "subheading",
+				"value": ["Is BFS Optimal?"]
+			},
+			{
+				"row": 13,
+				"column": 0,
+				"type": "list",
+				"value": ["In a graph, if we have multiple goal nodes, the optimal solution will be the shortest path to any of the nodes.","BFS traverses the graph level by level.","In the example below shaded nodes are goal nodes. BFS will find a goal node closer to the root. This is in fact the shortest path to the goal node.","So BFS is optimal. BFS is appropriate when the goal node is shallow."]
+			},
+			{
+				"row": 14,
+				"column": 0,
+				"type": "image",
+				"value": ["Optimal"],
+				"reference": "images/dfs-optimal-path-5b21ca3eeb7f6fbcdd479062.jpg"
+			}
+		]
+	}
+}
