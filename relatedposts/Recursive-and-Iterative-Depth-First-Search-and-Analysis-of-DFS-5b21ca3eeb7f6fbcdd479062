@@ -2,6 +2,10 @@
 	"_id ": "5b21ca3eeb7f6fbcdd479062",
 	"id": "Recursive-and-Iterative-Depth-First-Search-and-Analysis-of-DFS-5b21ca3eeb7f6fbcdd479062",
 	"posts": [{
+			"id": "Breadth-First-Search-and-Analysis-of-BFS-5b21ca3eeb7f6fbcdd486519",
+			"title": "Breadth First Search and Analysis of BFS"
+		},
+		{
 			"id": "Path-Finding-problems-using-Depth-First-Search-DFS-5b21ca3eeb7f6fbcdd479019",
 			"title": "Path Finding problems using Depth-First-Search DFS"
 		}

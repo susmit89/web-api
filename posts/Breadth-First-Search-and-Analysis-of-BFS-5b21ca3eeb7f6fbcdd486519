@@ -43,13 +43,13 @@
 				"row": 4,
 				"column": 0,
 				"type": "list",
-				"value": ["Many times instead of a graph a multi-array is given. We used that array and represented it in the form of a dictionary or hashmap.","If following python code we use queue and insert start node and mark start node visited.","Then we run a loop to pop the node in the front queue, mark it visited then add its unvisited connected nodes. We terminate when the queue is empty.","Termination conditions may vary based on application."]
+				"value": ["Many times instead of a graph a multi-array is given. We used that array and represented it in the form of a dictionary or hashmap.","In following python code we use queue and insert start node and mark start node visited.","Then we run a loop to pop the node in the front queue, mark it visited then add its unvisited connected nodes. We terminate when the queue is empty.","Termination conditions may vary based on application."]
 			},
 			{
 				"row": 5,
 				"column": 0,
 				"type": "code",
-				"value": ["import collections \ndef BFS(nodes, n):\n    edges = collections.defaultdict(set)\n    for u, v in nodes:\n        edges[u].add(v)\n        edges[v].add(u) #node required in directed graph\n    \n    visited = [False for _ in range(n)]\n    \n    queue = collections.deque() \n    \n    visited[0] = True\n    \n    queue.append(0)\n    \n    while queue:\n        v = queue.popleft() #pop front element from queue\n        \n        print(v)\n        \n        for u in edges[v]:\n            #Explore unvisited connected nodes to v\n            if not visited[u]: \n                visited[u] = True\n                queue.append(u)"]
+				"value": ["import collections \ndef BFS(nodes, n):\n    edges = collections.defaultdict(set)\n    for u, v in nodes:\n        edges[u].add(v)\n        edges[v].add(u) #not required in directed graph\n    \n    visited = [False for _ in range(n)]\n    \n    queue = collections.deque() \n    \n    visited[0] = True\n    \n    queue.append(0)\n    \n    while queue:\n        v = queue.popleft() #pop front element from queue\n        \n        print(v)\n        \n        for u in edges[v]:\n            #Explore unvisited connected nodes to v\n            if not visited[u]: \n                visited[u] = True\n                queue.append(u)"]
             },
 			{
 				"row": 6,
