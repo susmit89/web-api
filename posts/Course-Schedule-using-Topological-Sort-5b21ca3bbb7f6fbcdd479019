@@ -1,0 +1,138 @@
+{
+	"_id ": "5b21ca3bbb7f6fbcdd479019",
+	"id": "Course-Schedule-using-Topological-Sort-5b21ca3bbb7f6fbcdd479019",
+	"title": "Course Schedule using Topological Sort",
+	"topic": {
+		"_id": "5b21ca3eeb7f6fbccd486412",
+		"name": "Algorithms"
+	},
+	"keywords": ["Graph Search", "Depth First Search", "Stack", "Topological Sort", "Cycle Detection"],
+	"dailyRentalRate": 2.5,
+	"publishDate": "2021-07-14T09:04:28.809Z",
+	"metadata": ["Topological Sort is an algorithm derived from Depth-First-Search(DFS). Topological Sort resolves the dependency network and works in acyclic directed graphs. It is also used in detecting cycles in directed graphs. In problems like loading packages, one needs to resolve dependent packages and load them first. Topological Sort helps in resolving dependent packages. Similar problems can be also solved like traversing and creating hierarchy, finding order, etc."],
+	"content": {
+		"rows": 7,
+		"coumns": 0,
+		"images": {},
+		"text": [{
+				"row": 0,
+				"column": 0,
+				"type": "heading",
+				"value": ["Template for Topological Sort"]
+			},
+			{
+				"row": 1,
+				"column": 0,
+				"type": "list",
+				"value": ["Before understanding Topological Sort, make sure you understand DFS.","In the given example below, we load package ‘a’ in the system. We see ‘a’ has dependency packages ‘b’ , ‘c’ and ‘d’. ‘c’ is dependent on ‘d’.","So we need to load packages in order as ‘d’, ‘c’, ‘b’ and then ‘a’.","Here we will use recursive DFS and stack.","We run DFS on every node","If the node has no dependency or if the dependent of nodes are already in stack then we add that node to stack","Below is the python code."]
+			},
+			{
+				"row": 2,
+				"column": 0,
+				"type": "image",
+				"caption": ["Dependency graph"],
+                "reference": "images/topological-graph-5b21ca3bbb7f6fbcdd479019.jpg"
+			},
+            {
+				"row": 3,
+				"column": 0,
+				"type": "code",
+				"value": ["import collections\ndef TopologicalSort(nodes):\n    edges = collections.defaultdict(set)\n    for u, v in nodes:\n        edges[u].add(v)\n    \n    def dfs(vertex, visited, stack):\n        visited.add(vertex) #mark node visited\n        \n        for u in edges.get(vertex, {}): \n            #check unvisited connected nodes\n            if u not in visited:\n                dfs(u, visited, stack)\n        #if all connected node visited, add the current node to stack\n        stack.append(vertex)\n        \n    stack = [] #to store resolved nodes\n    visited = set()\n    for vertex in edges.keys():\n        if vertex not in visited:\n            dfs(vertex, visited, stack)\n    return stack #['d', 'c', 'b', 'a']"]
+			},
+            {
+				"row": 4,
+				"column": 0,
+				"type": "heading",
+				"value": ["Course Schedule(Cycle Detection)"]
+			},
+			{
+				"row": 5,
+				"column": 0,
+				"type": "link",
+				"title": ["207. Course Schedule"],
+				"link": "https://leetcode.com/problems/course-schedule/"
+			},
+			{
+				"row": 6,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["There are a total of numCourses courses you have to take, labeled from 0 to numCourses - 1. You are given an array prerequisites where prerequisites[i] = [ai, bi] indicates that you must take course bi first if you want to take course ai.For example, the pair [0, 1], indicates that to take course 0 you have to first take course 1. Return true if you can finish all courses. Otherwise, return false"]
+			},
+			{
+				"row": 7,
+				"column": 0,
+				"type": "image",
+				"caption": ["Input: numCourses = 4, prerequisites = [[1,0],[2,0],[3,1],[3,2]] Output: [0,2,1,3] Explanation: There are a total of 4 courses to take. To take course 3 you should have finished both courses 1 and 2. Both courses 1 and 2 should be taken after you finished course 0. So one correct course order is [0,1,2,3]. Another correct ordering is [0,2,1,3]."],
+				"reference": "images/topological-cycle-5b21ca3bbb7f6fbcdd479019.jpg"
+			},
+			{
+				"row": 8,
+				"column": 0,
+				"type": "subheading",
+				"value": ["Intuition"]
+			},
+			{
+				"row": 9,
+				"column": 0,
+				"type": "list",
+				"value": ["This problem asks to check if there is any cycle in the graph.", "We don't need a stack here because we don’t need to return results. Instead, we return False if there is a cycle.","Here we need to check three conditions - 1. If node visited, 2. If node partially visited 3. Node visited","Instead of using a HashSet, we will use a hashmap to store node status in the visited hashmap. ","In DFS, if we found any node partially visited, which means we found a cycle. ","If the node is marked as visited, we return True because we have met the dependency. ","If the node is uninvited we call DFS."]
+			},
+			{
+				"row": 10,
+				"column": 0,
+				"type": "code",
+				"value": ["def canFinish(numCourses, prerequisites):\n    #if no dependecy True\n    if not prerequisites: \n        return True\n        \n    def dfs(vertex,visited):\n        #vertex dependecy met. \n        if visited[vertex] == 2: \n            return True\n            #case 2: visiting\n        visited[vertex] = 1\n        for v in edges.get(vertex, {}):\n            #case 3: visited\n            if (visited[v] == 2):\n                continue\n                \n            elif (visited[v] == 1):\n                return False\n            else:\n                #case 1: unvisited node \n                if not dfs(v,visited):\n                    return False \n                    \n        #we resolved dependecy \n        visited[vertex] = 2\n        return True \n             \n    edges = collections.defaultdict(set)\n    for u, v in prerequisites:\n        edges[u].add(v)\n        \n    visited = {v:0 for v in range(numCourses)} \n        \n    for v in range(numCourses):\n        if not dfs(v,visited):\n            return False\n        \n    return True"]
+			},
+			{
+				"row": 11,
+				"column": 0,
+				"type": "heading",
+				"value": ["Course Schedule II (Find Order)"]
+			},
+			{
+				"row": 12,
+				"column": 0,
+				"type": "link",
+				"title": ["210. Course Schedule II"],
+				"link": "https://leetcode.com/problems/course-schedule-ii/"
+			},
+			{
+				"row": 13,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["IThere are a total of numCourses courses you have to take, labeled from 0 to numCourses - 1. You are given an array prerequisites where prerequisites[i] = [ai, bi] indicates that you must take course bi first if you want to take course ai. For example, the pair [0, 1], indicates that to take course 0 you have to first take course 1. Return the ordering of courses you should take to finish all courses. If there are many valid answers, return any of them. If it is impossible to finish all courses, return an empty array."]
+			},
+			{
+				"row": 14,
+				"column": 0,
+				"type": "code",
+				"value": ["Input: numCourses = 4, prerequisites = [[1,0],[2,0],[3,1],[3,2]]\nOutput: [0,2,1,3]\nExplanation: There are a total of 4 courses to take. To take course 3 you should have finished both courses 1 and 2. Both courses 1 and 2 should be taken after you finished course 0.\nSo one correct course order is [0,1,2,3]. Another correct ordering is [0,2,1,3]."]
+			},
+			{
+				"row": 15,
+				"column": 0,
+				"type": "image",
+				"caption": ["Find Order"],
+				"reference":"images/topological-order-5b21ca3bbb7f6fbcdd479019.jpg"
+			},
+			{
+				"row": 16,
+				"column": 0,
+				"type": "subheading",
+				"value": ["Intuition"]
+			},
+			{
+				"row": 17,
+				"column": 0,
+				"type": "list",
+				"value": ["Here we use the same solution from the above problem but since we need a return order. We use a stack.","We use a stack similar to the template above"]
+			},
+			{
+				"row": 18,
+				"column": 0,
+				"type": "code",
+				"value": ["\ndef getMaximumGold(grid):\n    def dfs(i, j, sum, visited):\n        #return if check i and j are underflow or overflow or (i,j) already visited\n        if i < 0 or i >= m or j < 0 or j >= n or not grid[i][j] or (i, j) in visited:\n            return sum \n        visited.add((i, j))\n        sum += grid[i][j] #add to current sum\n        mx = 0\n        for x, y in ((i, j + 1), (i , j - 1), (i + 1, j), (i - 1, j)): #check top, left, right, bottom neighbours\n            mx = max(dfs(x, y, sum, visited), mx) #only choose maximum value\n        visited.discard((i, j)) #remove from visited\n        return mx #return total path value \n\n    m, n = len(grid), len(grid[0])\n    maximum_gold = float('-inf')\n    for i in range(m):\n        for j in range(n):\n            #check with every (i,j) node as start node  \n            maximum_gold = max(maximum_gold, dfs(i, j, 0, set())) \n    return maximum_gold\n"]
+			}
+		]
+	}
+}
