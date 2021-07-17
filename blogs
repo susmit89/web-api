@@ -266,6 +266,18 @@
 		"keywords": ["Graph Search", "Depth First Search", "Stack", "Topological Sort", "Cycle Detection"],
 		"dailyRentalRate": 2.5,
 		"publishDate": "2021-07-14T09:04:28.809Z"
+	},
+	{
+		"_id ": "5b21ca3bbb7f6fbcee479019",
+		"id": "Redundant-Connections-with-Union-Find-5b21ca3bbb7f6fbcee479019",
+		"title": "Redundant Connections with Union Find",
+		"topic": {
+			"_id": "5b21ca3eeb7f6fbccd486412",
+			"name": "Algorithms"
+		},
+		"keywords": ["Graph Search", "Union Find", "Cycle Detection"],
+		"dailyRentalRate": 2.5,
+		"publishDate": "2021-07-16T09:04:28.809Z"
 	}
 
 

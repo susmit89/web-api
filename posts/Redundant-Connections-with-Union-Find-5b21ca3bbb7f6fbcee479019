@@ -1,0 +1,144 @@
+{
+	"_id ": "5b21ca3bbb7f6fbcee479019",
+    "id": "Redundant-Connections-with-Union-Find-5b21ca3bbb7f6fbcee479019",
+    "title": "Redundant Connections with Union Find",
+    "topic": {
+        "_id": "5b21ca3eeb7f6fbccd486412",
+        "name": "Algorithms"
+    },
+    "keywords": ["Graph Search", "Union Find", "Cycle Detection"],
+    "dailyRentalRate": 2.5,
+    "publishDate": "2021-07-16T09:04:28.809Z",
+	"metadata": ["TThe Union Find algorithm is used to group similar times in a graph and is popular in social networking. We create a union based on the relationship between the entities."],
+	"content": {
+		"rows": 7,
+		"coumns": 0,
+		"images": {},
+		"text": [{
+				"row": 2,
+				"column": 0,
+				"type": "image",
+				"caption": ["Union Find"],
+                "reference": "images/union-find-5b21ca3bbb7f6fbcee479019.jpg"
+			},
+			{
+				"row": 1,
+				"column": 0,
+				"type": "heading",
+				"value": ["Template for Union Find"]
+			},
+			{
+				"row": 2,
+				"column": 0,
+				"type": "list",
+				"value": ["In the figure above A knows B and C, C knows F while D knows E.","We can say since A knows B and C there is a chance B might know C. Also, F is connected to C, F might be aware of C social circle so we group A, B, C, F together and D, E together.","To unionize we need to have one connected node, we call this node parent. A is the parent of B and C, C is the parent of F.","We do two operations - find parents and unionize.","In the find parent operation, we search the parent of the node. Eg C is the parent of F. If the parent node also has a parent, we assign that grandparent to the current node. We do this until there is no parent for the current parent. So find(F) will return A.","In union, if two nodes return the same parent we group them together.","Below is python code"]
+			},
+            {
+				"row": 3,
+				"column": 0,
+				"type": "code",
+				"value": ["import collections\ndef UnionFind(edges):\n    parent = collections.defaultdict()\n    group = collections.defaultdict(set)\n    def find(x):\n        # x is not present then assign x is its own parent\n        if x not in parent:\n            parent[x] = x\n        #find parent's parents untill parent has no parent other than itelf\n        if parent[x] != x:\n            parent[x] = find(parent[x])\n        return parent[x]\n    def union(x, y):\n        #find parent of x and y\n        parent_x = find(x)\n        parent_y = find(y)\n        #assign parent of x to y\n        parent[parent_y] = parent_x\n        #group x and y together\n        group[parent_x].add(x)\n        group[parent_x].add(y)\n        \n    for x , y in edges:\n        union(x,y)\n    return list(group.values()) #[{'B', 'F', 'A', 'C'}, {'E', 'D'}]"]
+			},
+            {
+				"row": 4,
+				"column": 0,
+				"type": "heading",
+				"value": ["Redundant Connection"]
+			},
+			{
+				"row": 5,
+				"column": 0,
+				"type": "link",
+				"title": ["684. Redundant Connection"],
+				"link": "https://leetcode.com/problems/redundant-connection/"
+			},
+			{
+				"row": 6,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["In this problem, a tree is an undirected graph that is connected and has no cycles. You are given a graph that started as a tree with n nodes labeled from 1 to n, with one additional edge added. The added edge has two different vertices chosen from 1 to n, and was not an edge that already existed. The graph is represented as an array edges of length n where edges[i] = [ai, bi] indicates that there is an edge between nodes ai and bi in the graph. Return an edge that can be removed so that the resulting graph is a tree of n nodes. If there are multiple answers, return the answer that occurs last in the input."]
+			},
+			{
+				"row": 7,
+				"column": 0,
+				"type": "image",
+				"caption": [""],
+				"reference": "images/reduntant1-2-graph-5b21ca3bbb7f6fbcee479019.jpg"
+			},
+            {
+				"row": 8,
+				"column": 0,
+				"type": "code",
+				"value": ["Input: edges = [[1,2],[2,3],[3,4],[1,4],[1,5]]\nOutput: [1,4]"]
+			},
+			{
+				"row": 9,
+				"column": 0,
+				"type": "subheading",
+				"value": ["Intuition"]
+			},
+			{
+				"row": 10,
+				"column": 0,
+				"type": "list",
+				"value": ["In this problem we use the same solution as above with little modification.","Here we only need to check if union is possible so we don't need group hashmap.","We use rank to rank the parent. We parent has higher followers we rank that parent higher.", "If we found union that means we found a redundant path."]
+			},
+			{
+				"row": 10,
+				"column": 0,
+				"type": "code",
+				"value": ["def findRedundantConnection(edges):\n\n    parent = collections.defaultdict()\n    rank = collections.defaultdict(int)\n    \n    def find(x):\n        # x is not present then assign x is its own parent\n        #initial rank 0\n        if x not in parent:\n            parent[x] = x\n            rank[x] = 0\n        #find parent's parents untill parent has no parent other than itelf\n        if parent[x] != x:\n            parent[x] = find(parent[x])\n        return parent[x]\n            \n    def union(x, y):\n        #find parent of x and y\n        parent_x = find(x)\n        parent_y = find(y)\n           \n        #check if parents are same\n        if parent_x == parent_y:\n            return False\n        #assign parent with higher ranking\n        if rank[parent_x] < rank[parent_y]:\n            parent[parent_x] = parent_y\n        else:\n            parent[parent_y] = parent_x\n            if rank[parent_x] == rank[parent_y]:\n                rank[parent_x] += 1\n        return True\n            \n    for x, y in edges:\n        if not union(x, y):\n            return [x, y]"]
+			},
+			{
+				"row": 11,
+				"column": 0,
+				"type": "heading",
+				"value": ["Redundant Connection II"]
+			},
+			{
+				"row": 12,
+				"column": 0,
+				"type": "link",
+				"title": ["685. Redundant Connection II"],
+				"link": "https://leetcode.com/problems/redundant-connection-ii/"
+			},
+			{
+				"row": 13,
+				"column": 0,
+				"type": "paragraph",
+				"value": ["In this problem, a rooted tree is a directed graph such that, there is exactly one node (the root) for which all other nodes are descendants of this node, plus every node has exactly one parent, except for the root node which has no parents. The given input is a directed graph that started as a rooted tree with n nodes (with distinct values from 1 to n), with one additional directed edge added. The added edge has two different vertices chosen from 1 to n, and was not an edge that already existed. The resulting graph is given as a 2D-array of edges. Each element of edges is a pair [ui, vi] that represents a directed edge connecting nodes ui and vi, where ui is a parent of child vi. Return an edge that can be removed so that the resulting graph is a rooted tree of n nodes. If there are multiple answers, return the answer that occurs last in the given 2D-array."]
+			},
+			{
+				"row": 14,
+				"column": 0,
+				"type": "code",
+				"value": ["Input: edges = [[1,2],[2,3],[3,4],[4,1],[1,5]]\nOutput: [4,1]"]
+			},
+			{
+				"row": 15,
+				"column": 0,
+				"type": "image",
+				"caption": [""],
+				"reference":"images/graph2-5b21ca3bbb7f6fbcee479019.jpg"
+			},
+			{
+				"row": 16,
+				"column": 0,
+				"type": "subheading",
+				"value": ["Intuition"]
+			},
+			{
+				"row": 17,
+				"column": 0,
+				"type": "list",
+				"value": ["Here we want to make sure that each node has only one parent and there is no cycle.","We check 3 conditions.","Case I - if there is no cycle, but a node has two parents, Then one edge is bad.","Case II - There is a cycle but no node with two parents, then the edge with the cycle is the bad edge.","Casse III - There is a cycle, and one of the edges is in the cycle, then that edge is a bad edge","We first find the node with two parents.","We consider the graph as undirected and we check union. If there is union then there is the cycle. So we check Case I and II.","If we found no union return Case I"]
+			},
+			{
+				"row": 18,
+				"column": 0,
+				"type": "code",
+				"value": ["def findRedundantDirectedConnection(edges):\n    parent = collections.defaultdict()\n    rank = collections.defaultdict(int)\n\n    def find(x):\n        # x is not present then assign x is its own parent\n        #initial rank 0\n        if x not in parent:\n            parent[x] = x\n            rank[x] = 0\n        #find parent's parents untill parent has no parent other than itelf\n        if parent[x] != x:\n            parent[x] = find(parent[x])\n        return parent[x]\n\n    def union(x, y):\n        #find parent of x and y\n        parent_x = find(x)\n        parent_y = find(y)\n\n        #check if parents are same\n        if parent_x == parent_y:\n            return False\n        #assign parent with higher ranking\n        if rank[parent_x] < rank[parent_y]:\n            parent[parent_x] = parent_y\n        else:\n            parent[parent_y] = parent_x\n            if rank[parent_x] == rank[parent_y]:\n                rank[parent_x] += 1\n        return True\n\n    parent1 = None \n    parent2 = None\n    point_to = {}\n    for x, y in edges:\n        if y in point_to: \n            #we found y with 2 parents\n            parent1 = point_to[y]\n            parent2 = [x, y]\n            break\n        point_to[y] = [x, y]\n    #print(cand1, cand2, point_to)  \n    for x, y in edges:\n        if [x, y] == parent2: continue\n        if not union(x-1, y-1):\n            if parent1: return parent1 #case III\n            return [x, y] #case II\n    return parent2 #case I"]
+			}
+		]
+	}
+}
