@@ -1,0 +1,119 @@
+{
+    "_id ": "5b21ca3e721f6fbccd471388",
+    "id": "What-is-an-item-you-think-should-be-free-According-to-Redditors-5b21ca3e721f6fbccd471388",
+    "title": "What is an item you think should be free? - According to Redditors",
+    "topic": {
+        "_id": "5b21ca3eeb7f6fbccd486891",
+        "name": "Data Analytics"
+    },
+    "keywords": ["Social Media", "Reddit", "Data Analysis"],
+    "dailyRentalRate": 2.5,
+    "publishDate": "2021-07-18T19:04:28.809Z",
+	"metadata": ["We collected the data from the post asked on the subreddit r/AskReddit - What is an item you think should be free? The post had 11.6K upvotes and 7.7 comments when we collected the data. We selected items that had more than 500 upvotes. Some posts included more than 2-3 items. So we added upvotes of such posts to those mentioned items. Eg. A post including Epipens, Insulin, and Female Hygiene products had 1.3K upvotes. We added 1.3K votes to Life-saving drugs and Female Hygiene. Below is the data represented in Funnel."],
+	"content": {
+		"rows": 7,
+		"coumns": 0,
+		"images": {},
+		"text": [{
+				"row": 0,
+				"column": 0,
+				"type": "image",
+				"caption": [""],
+                "reference": "images/askreddit-free-funnel-5b21ca3e721f6fbccd471388.png" 
+			},
+			{
+				"row": 1,
+				"column": 0,
+				"type": "paragraph",
+				"value": [""]
+			},
+			{
+				"row": 2,
+				"column": 0,
+				"type": "paragraph",
+				"value": [""]
+			},
+			{
+				"row": 3,
+				"column": 0,
+				"type": "paragraph",
+				"value": [""]
+			},
+			{
+				"row": 4,
+				"column": 0,
+				"type": "paragraph",
+				"value": [""]
+			},
+			{
+				"row": 5,
+				"column": 0,
+				"type": "heading",
+				"value": ["How to use bloom filters"]
+			},
+			{
+				"row": 6,
+				"column": 0,
+				"type": "paragraph",
+				"value": [""]
+			},
+			{
+				"row": 7,
+				"column": 0,
+				"type": "heading",
+				"value": ["Where is bloom filters used"]
+			},
+			{
+				"row": 8,
+				"column": 0,
+				"type": "paragraph",
+				"value": [""]
+			},
+			{
+				"row": 9,
+				"column": 0,
+				"type": "heading",
+				"value": [""]
+			},
+			{
+				"row": 10,
+				"column": 0,
+				"type": "paragraph",
+				"value": [""]
+			},
+			{
+				"row": 11,
+				"column": 0,
+				"type": "heading",
+				"value": ["When using source or target or combined data"]
+			},
+			{
+				"row": 12,
+				"column": 0,
+				"type": "paragraph",
+				"value": [""]
+			},
+			{
+				"row": 13,
+				"column": 0,
+				"type": "paragraph",
+				"value": [""]
+			},
+			{
+				"row": 14,
+				"column": 0,
+				"type": "heading",
+				"value": ["References"]
+			},
+			{
+				"row": 15,
+				"column": 0,
+				"type": "references",
+				"value": [{
+					"link": "https://www.reddit.com/r/AskReddit/comments/ome91c/what_is_an_item_you_think_should_be_free/",
+					"title": "What is an item you think should be free?"
+				}]
+			}
+		]
+	}
+}
