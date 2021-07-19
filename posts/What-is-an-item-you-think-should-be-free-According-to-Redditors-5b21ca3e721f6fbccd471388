@@ -42,8 +42,9 @@
 			{
 				"row": 4,
 				"column": 0,
-				"type": "paragraph",
-				"value": [""]
+				"type": "image",
+				"value": ["Data represented in Bar Graph"],
+                "reference": "images/askreddit-free-bar-5b21ca3e721f6fbccd471388.png"
 			},
 			{
 				"row": 5,
