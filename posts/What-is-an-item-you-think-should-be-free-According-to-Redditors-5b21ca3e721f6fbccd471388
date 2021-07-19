@@ -43,7 +43,7 @@
 				"row": 4,
 				"column": 0,
 				"type": "image",
-				"value": ["Data represented in Bar Graph"],
+				"caption": ["Data represented in Bar Chart"],
                 "reference": "images/askreddit-free-bar-5b21ca3e721f6fbccd471388.png"
 			},
 			{
@@ -55,59 +55,24 @@
 			{
 				"row": 6,
 				"column": 0,
-				"type": "paragraph",
-				"value": [""]
+				"caption": "image",
+				"value": ["Data represented in Pie Chart"],
+                "reference": "images/askreddit-free-pie-5b21ca3e721f6fbccd471388.png"
 			},
 			{
 				"row": 7,
 				"column": 0,
-				"type": "heading",
-				"value": ["Where is bloom filters used"]
+				"type": "paragraph",
+				"value": ["Fees for Government-issued IDs got 3.6K support. Various Health issues including Therapy sessions, dental health, health insurance got mentions. Combining all health-related data, health is the topmost item Redditors want free. Cremation and Burial also got quite a good amount of upvotes."]
 			},
 			{
 				"row": 8,
-				"column": 0,
-				"type": "paragraph",
-				"value": [""]
-			},
-			{
-				"row": 9,
-				"column": 0,
-				"type": "heading",
-				"value": [""]
-			},
-			{
-				"row": 10,
-				"column": 0,
-				"type": "paragraph",
-				"value": [""]
-			},
-			{
-				"row": 11,
-				"column": 0,
-				"type": "heading",
-				"value": ["When using source or target or combined data"]
-			},
-			{
-				"row": 12,
-				"column": 0,
-				"type": "paragraph",
-				"value": [""]
-			},
-			{
-				"row": 13,
-				"column": 0,
-				"type": "paragraph",
-				"value": [""]
-			},
-			{
-				"row": 14,
 				"column": 0,
 				"type": "heading",
 				"value": ["References"]
 			},
 			{
-				"row": 15,
+				"row": 9,
 				"column": 0,
 				"type": "references",
 				"value": [{
